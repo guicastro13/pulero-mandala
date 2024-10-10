@@ -2,3 +2,4 @@
 /dist
 /.vs
 /tokens
+/src/mandala/Tasks/*
