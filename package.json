@@ -1,13 +1,26 @@
 {
   "dependencies": {
+    "@wppconnect-team/wppconnect": "^1.34.2",
     "dotenv": "^16.4.5",
     "node-cron": "^3.0.3",
     "pino": "^9.4.0",
     "pino-pretty": "^11.2.2",
+    "ts-node": "^10.9.2",
     "typescript": "^5.6.2"
   },
   "devDependencies": {
-    "@types/node-cron": "^3.0.11",
-    "ts-node": "^10.9.2"
-  }
+    "@types/node-cron": "^3.0.11"
+  },
+  "name": "pulero-mandala",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts | npx pino-pretty",
+    "build": "tsc",
+    "start": "node dist/src/index.js | npx pino-pretty"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
