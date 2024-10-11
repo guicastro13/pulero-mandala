@@ -17,7 +17,7 @@
   "scripts": {
     "dev": "ts-node src/index.ts | npx pino-pretty",
     "build": "tsc",
-    "start": "node dist/src/index.js | npx pino-pretty"
+    "start": "node dist/index.js | npx pino-pretty"
   },
   "keywords": [],
   "author": "",
