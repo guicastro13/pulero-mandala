@@ -1,43 +1,35 @@
+import { CreateOptions, Message, Whatsapp } from "@wppconnect-team/wppconnect";
+import { ILogger } from "../helpers/logger";
 import { Communicator } from "./comunicador";
-
 const wppconnect = require('@wppconnect-team/wppconnect');
-
 export class WhatsServer{
-    client: any;
-    constructor() {
-    this.client = null;
-    this.init();
+    public whatsApp?: Whatsapp;
+    private logger: ILogger;
+    constructor(logger: ILogger) {
+    this.logger = logger;
   }
-
-  async init() {
+  async start(config: CreateOptions) {
     try {
-      this.client = await wppconnect.create({
-        headless: true,
-        logQR: true,
-        updatesLog: false,
-        phoneNumber: process.env.PHONE_NUMBER,
-        catchLinkCode: (str: any) => console.log('Code: ' + str),
-    });
-      console.log("WhatsApp server started");
+      this.whatsApp = await wppconnect.create(config);
+      this.logger.info("WhatsApp server started");
       this.listenForMessages();
     } catch (error) {
-      console.error("Error initializing WhatsApp server: ", error);
+      this.logger.error("Error initializing WhatsApp server: ");
     }
   }
-
-  listenForMessages() {
-    if (!this.client) {
-      console.error("WhatsApp client not initialized.");
+  private listenForMessages() {
+    if (!this.whatsApp) {
+      this.logger.error("WhatsApp client not initialized.");
       return;
     }
 
-    this.client.onMessage((message: any) => {
+    this.whatsApp.onAnyMessage((message: Message) => {
       this.handleMessage(message);
     });
   }
 
-  handleMessage(message: any) {
-    const communicator = new Communicator(this.client);
+  private handleMessage(message: Message) {
+    const communicator = new Communicator(this.whatsApp, this.logger);
     communicator.processCommand(message);
   }
 }
