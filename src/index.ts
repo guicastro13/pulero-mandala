@@ -11,7 +11,10 @@ const config: CreateOptions  = {
     logQR: true,
     updatesLog: false,
     phoneNumber: process.env.PHONE_NUMBER,
-    catchLinkCode: (str: any) => console.log('Code: ' + str)
+    catchLinkCode: (str: any) => console.log('Code: ' + str),
+    puppeteerOptions: {
+        args: ['--no-sandbox', '--disable-setuid-sandbox']
+    },
     };
 
 const logger = new Logger()
