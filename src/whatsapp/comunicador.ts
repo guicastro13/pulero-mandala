@@ -1,26 +1,26 @@
+import { Message, Whatsapp } from "@wppconnect-team/wppconnect";
 import { ILogger } from "../helpers/logger";
 import { Mandala } from "../mandala/mandala";
 
 export class Communicator {
-  client: any;
+  client?: Whatsapp;
   mandala: Mandala;
   logger: ILogger;
-  constructor(client: any, logger: ILogger) {
-    this.client = client;
+  constructor( logger: ILogger, client?: Whatsapp) {
     this.logger = logger;
+    this.client = client;
     this.mandala = new Mandala(this.logger);
   }
-
-  async processCommand(message: any) {
-    this.logger.info(message);
+  async processCommand(message: Message) {
     const command = message.body;
     this.logger.info(`Recieved command: ${command}`);;
+
     const addRegex = /^!add\((.+)\)$/;
     const removeRegex = /^!remover\((.+)\)$/;
-    if (command.startsWith("!")) {
+    if (command!.startsWith("!")) {
       switch (command) {
         case "!hello":
-          this.client.sendText(message.from, "Ta querendo pica é?");
+          this.client?.sendText(message.from, "Ta querendo pica é?");
           break;
         case "!mandala":
           this.handleMandalaCommand(message);
@@ -28,60 +28,52 @@ export class Communicator {
         case "!get":
           this.handleGetCommand(message);
         default:
-          if (addRegex.test(command)) {
-            const name = command.match(addRegex)?.[1];
-            await this.handleAddCommand(message, name);
-          } else if (removeRegex.test(command)) {
-            const name = command.match(removeRegex)?.[1];
-            await this.handleRemoveCommand(message, name);
+          if (addRegex.test(command!)) {
+            const name = command!.match(addRegex)?.[1];
+            await this.handleAddCommand(message, name!);
+          } else if (removeRegex.test(command!)) {
+            const name = command!.match(removeRegex)?.[1];
+            await this.handleRemoveCommand(message, name!);
           } else {
-            this.client.sendText(message.from, "Digita direito essa bagaça ai!");
+            this.client?.sendText(message.from, "Digita direito essa bagaça ai!");
           }
           break;
       }
     }
   }
 
+  async handleMandalaCommand(message: Message) {
 
-  async handleMandalaCommand(message: any) {
-
-    await this.client.sendText(message.from, "Gerando sua mandala...");
+    await this.client?.sendText(message.from, "Gerando sua mandala...");
     await this.mandala.generateMandala();
   }
 
-  async handleGetCommand(message: any) {
+  async handleGetCommand(message: Message) {
 
     const mandala = await this.mandala.getMandala();
     if (mandala === "") {
-      await this.client.sendText(message.from, "A mandala tá vazia, !mandala para gerar.");
+      await this.client?.sendText(message.from, "A mandala tá vazia, !mandala para gerar.");
       return;
     }
-    await this.client.sendText(message.from, mandala);
-    await this.client.sendText(message.from, "Aproveita, quero ver essa casa um BRINCO!");
+    await this.client?.sendText(message.from, mandala);
+    await this.client?.sendText(message.from, "Aproveita, quero ver essa casa um BRINCO!");
   }
 
-
-  async handleAddCommand(message: any, name: string) {
+  async handleAddCommand(message: Message, name: string) {
     if (name) {
       await this.mandala.addPerson(name);
-      await this.client.sendText(message.from, `Adicionando esse corno ${name}...`);
+      await this.client?.sendText(message.from, `Adicionando esse corno ${name}...`);
     } else {
-      this.client.sendText(message.from, "Ta errado o comando.");
+      this.client?.sendText(message.from, "Ta errado o comando.");
     }
   }
 
-  async handleRemoveCommand(message: any, name: string) {
+  async handleRemoveCommand(message: Message, name: string) {
     if (name) {
       await this.mandala.removePerson(name);
-      await this.client.sendText(message.from, `Removendo esse preguiçoso ${name}...`);
+      await this.client?.sendText(message.from, `Removendo esse preguiçoso ${name}...`);
     } else {
-      this.client.sendText(message.from, "Ta errado o comando.");
+      this.client?.sendText(message.from, "Ta errado o comando.");
     }
-  }
-
-  extractParameter(command: any, action: any) {
-    const regex = new RegExp(`!${action}\\(([^)]+)\\)`);
-    const match = command.match(regex);
-    return match ? match[1] : null;
   }
 }

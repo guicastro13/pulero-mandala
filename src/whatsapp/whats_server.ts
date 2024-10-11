@@ -29,7 +29,7 @@ export class WhatsServer{
   }
 
   private handleMessage(message: Message) {
-    const communicator = new Communicator(this.whatsApp, this.logger);
+    const communicator = new Communicator(this.logger, this.whatsApp);
     communicator.processCommand(message);
   }
 }
