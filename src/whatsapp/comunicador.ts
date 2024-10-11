@@ -25,6 +25,8 @@ export class Communicator {
         case "!mandala":
           this.handleMandalaCommand(message);
           break;
+        case "!get":
+          this.handleGetCommand(message);
         default:
           if (addRegex.test(command)) {
             const name = command.match(addRegex)?.[1];
@@ -45,11 +47,19 @@ export class Communicator {
 
     await this.client.sendText(message.from, "Gerando sua mandala...");
     await this.mandala.generateMandala();
+  }
+
+  async handleGetCommand(message: any) {
+
     const mandala = await this.mandala.getMandala();
+    if (mandala === "") {
+      await this.client.sendText(message.from, "A mandala tá vazia, !mandala para gerar.");
+      return;
+    }
     await this.client.sendText(message.from, mandala);
     await this.client.sendText(message.from, "Aproveita, quero ver essa casa um BRINCO!");
-
   }
+
 
   async handleAddCommand(message: any, name: string) {
     if (name) {
