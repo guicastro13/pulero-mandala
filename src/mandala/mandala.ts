@@ -28,7 +28,7 @@ export class Mandala {
     }
 
     loadData(type: 'people' | 'places'): any[] {
-        const filePath = path.join(__dirname, `../data/${type}.json`);
+        const filePath = path.resolve(process.cwd(), `data/${type}.json`);
         if (!fs.existsSync(filePath)) {
             this.logger.error(`${type}.json não encontrado.`);
             throw new Error(`${type}.json não encontrado.`);
@@ -37,7 +37,7 @@ export class Mandala {
         return JSON.parse(data);
     }
     saveData(type: 'people' | 'places', data: any[]) {
-        const filePath = path.join(__dirname, `../data/${type}.json`);
+        const filePath = path.resolve(process.cwd(), `data/${type}.json`);
         fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
     }
     getMandala(): string {
