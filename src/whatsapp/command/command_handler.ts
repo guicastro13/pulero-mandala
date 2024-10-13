@@ -33,10 +33,8 @@ export class CommandHandler {
         const cmd = this.commands.get(commandText);
         if (cmd) {
           await cmd.execute(client, message);
-        } else if (commandText === "!help") {
-            await this.sendHelpMessage(client, message);
         } else {
-          await client.sendText(message.from, "Digita direito essa bagaça ai!");
+            await this.sendHelpMessage(client, message);
         }
       }
     }
