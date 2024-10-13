@@ -1,79 +1,38 @@
 import { Message, Whatsapp } from "@wppconnect-team/wppconnect";
 import { ILogger } from "../helpers/logger";
 import { Mandala } from "../mandala/mandala";
+import { ICommand } from "./command/interface_command";
+import { CommandHandler } from "./command/command_handler";
+import { HelloCommand } from "./command/commands/hello_command";
+import { MandalaCommand } from "./command/commands/mandala_command";
+import { AddCommand } from "./command/commands/add_person_mandala_command";
+
 
 export class Communicator {
   client?: Whatsapp;
   mandala: Mandala;
   logger: ILogger;
-  constructor( logger: ILogger, client?: Whatsapp) {
+  commandHandler: CommandHandler;
+
+  constructor(logger: ILogger, client?: Whatsapp) {
     this.logger = logger;
     this.client = client;
     this.mandala = new Mandala(this.logger);
+    this.commandHandler = new CommandHandler();
+
+    this.registerCommands();
   }
+
+  private registerCommands() {
+    this.commandHandler.registerCommand(new HelloCommand());
+    this.commandHandler.registerCommand(new MandalaCommand(this.mandala));
+    this.commandHandler.registerCommand(new AddCommand(this.mandala));
+  }
+
   async processCommand(message: Message) {
-    const command = message.body;
-    this.logger.info(`Recieved command: ${command}`);;
-
-    const addRegex = /^!add\((.+)\)$/;
-    const removeRegex = /^!remover\((.+)\)$/;
-    if (command!.startsWith("!")) {
-      switch (command) {
-        case "!hello":
-          this.client?.sendText(message.from, "Ta querendo pica é?");
-          break;
-        case "!mandala":
-          this.handleMandalaCommand(message);
-          break;
-        case "!get":
-          this.handleGetCommand(message);
-        default:
-          if (addRegex.test(command!)) {
-            const name = command!.match(addRegex)?.[1];
-            await this.handleAddCommand(message, name!);
-          } else if (removeRegex.test(command!)) {
-            const name = command!.match(removeRegex)?.[1];
-            await this.handleRemoveCommand(message, name!);
-          } else {
-            this.client?.sendText(message.from, "Digita direito essa bagaça ai!");
-          }
-          break;
-      }
-    }
-  }
-
-  async handleMandalaCommand(message: Message) {
-
-    await this.client?.sendText(message.from, "Gerando sua mandala...");
-    await this.mandala.generateMandala();
-  }
-
-  async handleGetCommand(message: Message) {
-
-    const mandala = await this.mandala.getMandala();
-    if (mandala === "") {
-      await this.client?.sendText(message.from, "A mandala tá vazia, !mandala para gerar.");
-      return;
-    }
-    await this.client?.sendText(message.from, mandala);
-    await this.client?.sendText(message.from, "Aproveita, quero ver essa casa um BRINCO!");
-  }
-
-  async handleAddCommand(message: Message, name: string) {
-    if (name) {
-      await this.mandala.addPerson(name);
-      await this.client?.sendText(message.from, `Adicionando esse corno ${name}...`);
-    } else {
-      this.client?.sendText(message.from, "Ta errado o comando.");
-    }
-  }
-
-  async handleRemoveCommand(message: Message, name: string) {
-    if (name) {
-      await this.mandala.removePerson(name);
-      await this.client?.sendText(message.from, `Removendo esse preguiçoso ${name}...`);
-    } else {
-      this.client?.sendText(message.from, "Ta errado o comando.");
+    this.logger.info(`Recieved command: ${message.body}`);
+    if (this.client) {
+      await this.commandHandler.handleCommand(this.client, message);
     }
   }
 }
