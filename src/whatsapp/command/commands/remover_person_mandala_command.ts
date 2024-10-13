@@ -4,7 +4,7 @@ import { ICommand } from "../interface_command";
 
 export class RemoverPersonMandalaCommand implements ICommand {
     command = "!remover";
-    description = "Remove uma pessoa da mandala.";
+    description = "Remove uma pessoa da mandala. Uso: !remover(nome)";
   
     constructor(private mandala: Mandala) {}
   
