@@ -29,7 +29,6 @@ export class Communicator {
     this.commandHandler.registerCommand(new AddPersonMandalaCommand(this.mandala));
     this.commandHandler.registerCommand(new RemoverPersonMandalaCommand(this.mandala));
     this.commandHandler.registerCommand(new GetMandalaMembersCommand(this.mandala));
-    this.commandHandler.registerCommand(new GetMandalaMembersCommand(this.mandala));
   }
 
   async processCommand(message: Message) {
