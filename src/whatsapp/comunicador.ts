@@ -6,15 +6,15 @@ import { HelloCommand } from "./command/commands/hello_command";
 import { MandalaCommand } from "./command/commands/mandala_command";
 import { AddPersonMandalaCommand } from "./command/commands/add_person_mandala_command";
 import { RemoverPersonMandalaCommand } from "./command/commands/remover_person_mandala_command";
-
+import { GetMandalaMembersCommand } from "./command/commands/get_mandala_members";
 
 export class Communicator {
-  client?: Whatsapp;
+  client: Whatsapp;
   mandala: Mandala;
   logger: ILogger;
   commandHandler: CommandHandler;
 
-  constructor(logger: ILogger, client?: Whatsapp) {
+  constructor(logger: ILogger, client: Whatsapp) {
     this.logger = logger;
     this.client = client;
     this.mandala = new Mandala(this.logger);
@@ -28,6 +28,8 @@ export class Communicator {
     this.commandHandler.registerCommand(new MandalaCommand(this.mandala));
     this.commandHandler.registerCommand(new AddPersonMandalaCommand(this.mandala));
     this.commandHandler.registerCommand(new RemoverPersonMandalaCommand(this.mandala));
+    this.commandHandler.registerCommand(new GetMandalaMembersCommand(this.mandala));
+    this.commandHandler.registerCommand(new GetMandalaMembersCommand(this.mandala));
   }
 
   async processCommand(message: Message) {

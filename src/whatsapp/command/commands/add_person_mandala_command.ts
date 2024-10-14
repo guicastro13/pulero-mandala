@@ -5,7 +5,7 @@ import { ICommand } from "../interface_command";
 export class AddPersonMandalaCommand implements ICommand {
     command = "!add";
     description = "Adiciona uma pessoa à mandala. Uso: !add(nome)";
-  
+ 
     constructor(private mandala: Mandala) {}
   
     async execute(client: Whatsapp, message: Message, args: string): Promise<void> {

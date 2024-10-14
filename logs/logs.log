@@ -77,3 +77,22 @@
 {"level":30,"time":1728531310739,"pid":17080,"hostname":"castro","id":"true_120363219389577239@g.us_3EB07DFAD56B777FE29114_5519991187337@c.us","viewed":false,"body":"Removendo esse preguiçoso Xupeta...","type":"chat","subtype":null,"t":1728531263,"from":"5519991187337@c.us","to":"120363219389577239@g.us","ack":0,"isNewMsg":true,"star":false,"kicNotified":false,"isFromTemplate":false,"pollInvalidated":false,"isSentCagPollCreation":false,"latestEditMsgKey":null,"latestEditSenderTimestampMs":null,"mentionedJidList":[],"groupMentions":[],"isEventCanceled":false,"eventInvalidated":false,"urlText":null,"urlNumber":null,"isVcardOverMmsDocument":false,"isForwarded":false,"hasReaction":false,"disappearingModeInitiator":"chat","productHeaderImageRejected":false,"lastPlaybackProgress":0,"isDynamicReplyButtonsMsg":false,"isCarouselCard":false,"parentMsgId":null,"isMdHistoryMsg":false,"stickerSentTs":0,"isAvatar":false,"lastUpdateFromServerTs":0,"invokedBotWid":null,"bizBotType":null,"botResponseTargetId":null,"botPluginType":null,"botPluginReferenceIndex":null,"botPluginSearchProvider":null,"botPluginSearchUrl":null,"botPluginSearchQuery":null,"botPluginMaybeParent":false,"botReelPluginThumbnailCdnUrl":null,"botMsgBodyType":null,"requiresDirectConnection":null,"bizContentPlaceholderType":null,"hostedBizEncStateMismatch":false,"senderOrRecipientAccountTypeHosted":false,"placeholderCreatedWhenAccountIsHosted":false,"chatId":"120363219389577239@g.us","fromMe":true,"sender":{"id":"5519991187337@c.us","name":"Guilherme Castro","shortName":"Guilherme Castro","pushname":"Gui castro","type":"in","isBusiness":false,"isEnterprise":false,"isSmb":false,"isContactSyncCompleted":0,"textStatusLastUpdateTime":-1,"syncToAddressbook":true,"formattedName":"You","isMe":true,"isMyContact":true,"isPSA":false,"isUser":true,"isWAContact":true,"profilePicThumbObj":null,"msgs":null},"timestamp":1728531263,"content":"Removendo esse preguiçoso Xupeta...","isGroupMsg":true,"mediaData":{}}
 {"level":30,"time":1728531310739,"pid":17080,"hostname":"castro","msg":"Recieved command: Removendo esse preguiçoso Xupeta..."}
 {"level":30,"time":1728610215768,"pid":13636,"hostname":"castro","msg":"WhatsApp server started"}
+{"level":50,"time":1728869701951,"pid":14960,"hostname":"castro","msg":"Error initializing WhatsApp server: "}
+{"level":30,"time":1728869773013,"pid":14896,"hostname":"castro","msg":"WhatsApp server started"}
+{"level":30,"time":1728869779092,"pid":14896,"hostname":"castro","msg":"Recieved command: "}
+{"level":30,"time":1728869783260,"pid":14896,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1728869783267,"pid":14896,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1728869783271,"pid":14896,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1728869783275,"pid":14896,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1728869783280,"pid":14896,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1728869783284,"pid":14896,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1728869783288,"pid":14896,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1728869783294,"pid":14896,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1728869783299,"pid":14896,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1728869783302,"pid":14896,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1728869783306,"pid":14896,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1728869783309,"pid":14896,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1728869783314,"pid":14896,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1728869832259,"pid":14896,"hostname":"castro","msg":"Recieved command: !mandala_members"}
+{"level":30,"time":1728869832336,"pid":14896,"hostname":"castro","msg":"Recieved command: Membros da mandala: Cabeca, Cafe, Bordel, Chris, Greg, Dylan, Castro, Pix, James, Penado"}
+{"level":30,"time":1728869832868,"pid":14896,"hostname":"castro","msg":"Recieved command: Aqui estão os comandos disponíveis:\n\n!hello: Responde uma mensagem engraçada.\n!mandala: Gera uma mandala.\n!add: Adiciona uma pessoa à mandala. Uso: !add(nome)\n!remover: Remove uma pessoa da mandala. Uso: !remover(nome)\n"}

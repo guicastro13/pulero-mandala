@@ -175,4 +175,7 @@ export class Mandala {
         this.logger.info(`A pessoa "${name}" foi removida com sucesso.`);
         return `A pessoa "${name}" foi removida com sucesso.`;
     }
+    getMembers(): string[] {
+        return this.loadData('people');
+    }
 }

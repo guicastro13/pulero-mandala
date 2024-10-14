@@ -3,7 +3,7 @@ import { ILogger } from "../helpers/logger";
 import { Communicator } from "./comunicador";
 const wppconnect = require('@wppconnect-team/wppconnect');
 export class WhatsServer{
-    public whatsApp?: Whatsapp;
+    public whatsApp!: Whatsapp;
     private logger: ILogger;
     constructor(logger: ILogger) {
     this.logger = logger;
