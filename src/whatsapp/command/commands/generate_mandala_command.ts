@@ -3,7 +3,7 @@ import { Mandala } from "../../../mandala/mandala";
 import { ICommand } from "../interface_command";
 
 export class GenerateMandalaCommand implements ICommand {
-    command = "!mandala";
+    command = "!get_mandala";
     description = "Gera uma mandala.";
 
     constructor(private mandala: Mandala) {
