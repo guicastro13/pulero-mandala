@@ -2,7 +2,7 @@ import { Message, Whatsapp } from "@wppconnect-team/wppconnect";
 import { Mandala } from "../../../mandala/mandala";
 import { ICommand } from "../interface_command";
 
-export class MandalaCommand implements ICommand {
+export class GenerateMandalaCommand implements ICommand {
     command = "!mandala";
     description = "Gera uma mandala.";
 
