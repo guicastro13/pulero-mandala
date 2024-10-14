@@ -3,7 +3,7 @@ import { ILogger } from "../helpers/logger";
 import { Mandala } from "../mandala/mandala";
 import { CommandHandler } from "./command/command_handler";
 import { HelloCommand } from "./command/commands/hello_command";
-import { GenerateMandalaCommand, MandalaCommand } from "./command/commands/generate_mandala_command";
+import { GenerateMandalaCommand } from "./command/commands/generate_mandala_command";
 import { AddPersonMandalaCommand } from "./command/commands/add_person_mandala_command";
 import { RemoverPersonMandalaCommand } from "./command/commands/remover_person_mandala_command";
 import { GetMandalaMembersCommand } from "./command/commands/get_mandala_members";
