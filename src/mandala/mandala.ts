@@ -16,7 +16,7 @@ export class Mandala {
     constructor(logger: ILogger) {
         this.logger = logger;
         this.taskDirectory = path.join(__dirname, 'Tasks');
-        this.people = this.loadData('people');
+        this.people = this.loadData('mandala_people');
         this.places = this.loadData('places').map((place: any) => ({
             name: place.name,
             weight: place.weight
@@ -27,7 +27,7 @@ export class Mandala {
         }
     }
 
-    loadData(type: 'people' | 'places'): any[] {
+    loadData(type: 'mandala_people' | 'places'): any[] {
         const filePath = path.resolve(process.cwd(), `data/${type}.json`);
         if (!fs.existsSync(filePath)) {
             this.logger.error(`${type}.json não encontrado.`);
@@ -36,7 +36,7 @@ export class Mandala {
         const data = fs.readFileSync(filePath, 'utf8');
         return JSON.parse(data);
     }
-    saveData(type: 'people' | 'places', data: any[]) {
+    saveData(type: 'mandala_people' | 'places', data: any[]) {
         const filePath = path.resolve(process.cwd(), `data/${type}.json`);
         fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
     }
@@ -152,18 +152,18 @@ export class Mandala {
         return array;
     }
     addPerson(name: string): string {
-        const people = this.loadData('people');
+        const people = this.loadData('mandala_people');
         if (people.includes(name)) {
             this.logger.info(`A pessoa "${name}" já existe na lista.`);
             return `A pessoa "${name}" já existe na lista.`;
         }
         people.push(name);
-        this.saveData('people', people);
+        this.saveData('mandala_people', people);
         this.logger.info(`A pessoa "${name}" foi adicionada com sucesso.`);
         return `A pessoa "${name}" foi adicionada com sucesso.`;
     }
     removePerson(name: string): string {
-        const people = this.loadData('people');
+        const people = this.loadData('mandala_people');
 
         const index = people.indexOf(name);
         if (index === -1) {
@@ -171,11 +171,11 @@ export class Mandala {
             return `A pessoa "${name}" não foi encontrada na lista.`;
         }
         people.splice(index, 1);
-        this.saveData('people', people);
+        this.saveData('mandala_people', people);
         this.logger.info(`A pessoa "${name}" foi removida com sucesso.`);
         return `A pessoa "${name}" foi removida com sucesso.`;
     }
     getMembers(): string[] {
-        return this.loadData('people');
+        return this.loadData('mandala_people');
     }
 }

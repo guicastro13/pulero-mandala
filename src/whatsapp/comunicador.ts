@@ -8,18 +8,24 @@ import { AddPersonMandalaCommand } from "./command/commands/add_person_mandala_c
 import { RemoverPersonMandalaCommand } from "./command/commands/remover_person_mandala_command";
 import { GetMandalaMembersCommand } from "./command/commands/get_mandala_members";
 import { GetMandalaCommand } from "./command/commands/get_mandala_command";
+import { GetPeoplePunishdCommand } from "./command/commands/get_people_punishd";
+import { PunishSystem } from "../punish_points/punish_points";
+import { PunishPersonCommand } from "./command/commands/punish_person";
+import { RemoveAllPunishCommand } from "./command/commands/remove_all_punish";
 
 export class Communicator {
   client: Whatsapp;
   mandala: Mandala;
   logger: ILogger;
   commandHandler: CommandHandler;
+  punisher: PunishSystem;
 
   constructor(logger: ILogger, client: Whatsapp) {
     this.logger = logger;
     this.client = client;
     this.mandala = new Mandala(this.logger);
     this.commandHandler = new CommandHandler();
+    this.punisher = new PunishSystem(this.logger);
 
     this.registerCommands();
   }
@@ -31,6 +37,9 @@ export class Communicator {
     this.commandHandler.registerCommand(new RemoverPersonMandalaCommand(this.mandala));
     this.commandHandler.registerCommand(new GetMandalaMembersCommand(this.mandala));
     this.commandHandler.registerCommand(new GetMandalaCommand(this.mandala));
+    this.commandHandler.registerCommand(new PunishPersonCommand(this.punisher));
+    this.commandHandler.registerCommand(new GetPeoplePunishdCommand(this.punisher));
+    this.commandHandler.registerCommand(new RemoveAllPunishCommand(this.punisher));
   }
 
   async processCommand(message: Message) {

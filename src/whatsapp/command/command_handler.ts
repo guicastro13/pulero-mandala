@@ -10,6 +10,7 @@ export class CommandHandler {
   
     async handleCommand(client: Whatsapp, message: Message) {
       const commandText = message.body!;
+      const multaRegex = /^!multa\(\s*([^,\s][^,]*)\s*,\s*([^,\s][^)]*)\s*\)$/;
       const addRegex = /^!add\((.+)\)$/;
       const removeRegex = /^!remover\((.+)\)$/;
   
@@ -21,6 +22,14 @@ export class CommandHandler {
             await cmd.execute(client, message, args);
           }
           return;
+        } else if (multaRegex.test(commandText)) {
+          const args = commandText.match(multaRegex)?.[1];
+          const cmd = this.commands.get("!multa");
+          console.log("AQUI")
+          if (cmd) {
+            await cmd.execute(client, message, args);
+          }
+          return;
         } else if (removeRegex.test(commandText)) {
           const args = commandText.match(removeRegex)?.[1];
           const cmd = this.commands.get("!remover");
@@ -28,7 +37,7 @@ export class CommandHandler {
             await cmd.execute(client, message, args);
           }
           return;
-        }
+        } 
   
         const cmd = this.commands.get(commandText);
         if (cmd) {

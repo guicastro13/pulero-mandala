@@ -1,12 +1,88 @@
 [
-  "Cabeca",
-  "Cafe",
-  "Bordel",
-  "Chris",
-  "Greg",
-  "Dylan",
-  "Castro",
-  "Pix",
-  "James",
-  "Penado"
+  {
+    "name": "Cabeca",
+    "points": {
+      "total": 0,
+      "reasons": []
+    }
+  },
+  {
+    "name": "Cafe",
+    "points": {
+      "total": 0,
+      "reasons": []
+    }
+  },
+  {
+    "name": "Bordel",
+    "points": {
+      "total": 0,
+      "reasons": []
+    }
+  },
+  {
+    "name": "Chris",
+    "points": {
+      "total": 0,
+      "reasons": []
+    }
+  },
+  {
+    "name": "Greg",
+    "points": {
+      "total": 0,
+      "reasons": []
+    }
+  },
+  {
+    "name": "Dylan",
+    "points": {
+      "total": 0,
+      "reasons": []
+    }
+  },
+  {
+    "name": "Castro",
+    "points": {
+      "total": 1,
+      "reasons": [
+        "teste"
+      ]
+    }
+  },
+  {
+    "name": "Pix",
+    "points": {
+      "total": 0,
+      "reasons": []
+    }
+  },
+  {
+    "name": "James",
+    "points": {
+      "total": 0,
+      "reasons": []
+    }
+  },
+  {
+    "name": "Penado",
+    "points": {
+      "total": 0,
+      "reasons": []
+    }
+  },
+  {
+    "name": "Moises",
+    "points": {
+      "total": 0,
+      "reasons": []
+    }
+  },
+  {
+    "name": "Xupeta",
+    "points": {
+      "total": 0,
+      "reasons": []
+    }
+  }
 ]
