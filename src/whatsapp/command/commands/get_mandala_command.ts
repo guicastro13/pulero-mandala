@@ -1,6 +1,8 @@
 import { Message, Whatsapp } from "@wppconnect-team/wppconnect";
 import { Mandala } from "../../../mandala/mandala";
+import { Command } from "../command_decorator";
 
+@Command()
 export class GetMandalaCommand {
     command = "!get_mandala";
     description = "Pega uma mandala gerada.";

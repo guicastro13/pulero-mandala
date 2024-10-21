@@ -1,6 +1,8 @@
 import { Message, Whatsapp } from "@wppconnect-team/wppconnect";
 import { PunishSystem } from "../../../punish_points/punish_points";
+import { Command } from "../command_decorator";
 
+@Command()
 export class GetPeoplePunishdCommand {
     command = "!get_punished";
     description = "Retorna as pessoas que foram multadas.";
