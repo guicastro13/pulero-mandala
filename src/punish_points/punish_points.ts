@@ -18,7 +18,7 @@ export class PunishSystem {
         this.people = this.loadPeopleData('people');
     }
 
-    loadPeopleData(type: 'people') {
+    private loadPeopleData(type: 'people') {
         const filePath = path.resolve(process.cwd(), `data/${type}.json`);
         if (!fs.existsSync(filePath)) {
             this.logger.error(`${type}.json não encontrado.`);
@@ -27,7 +27,7 @@ export class PunishSystem {
         const data = fs.readFileSync(filePath, 'utf8');
         return JSON.parse(data);
     }
-    savePeopleData(type: 'people', data: any[]) {
+    private savePeopleData(type: 'people', data: any[]) {
         const filePath = path.resolve(process.cwd(), `data/${type}.json`);
         fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
     }
@@ -42,7 +42,7 @@ export class PunishSystem {
             this.logger.error(`Usuário ${name} não encontrado.`);
         }
     }
-    getTotalPoints(): { name: string; totalPoints: number }[] {
+    private getTotalPoints(): { name: string; totalPoints: number }[] {
         return this.people.map(person => ({
             name: person.name,
             totalPoints: person.points.total
@@ -58,7 +58,7 @@ export class PunishSystem {
             this.logger.error(`Usuário ${name} não encontrado.`);
         }
     }
-    getReasonsByName(name: string): string[] {
+    private getReasonsByName(name: string): string[] {
         const user = this.people.find(person => person.name === name);
         if (user) {
             return user.points.reasons;
@@ -75,16 +75,16 @@ export class PunishSystem {
         this.savePeopleData('people', this.people);
     }
 
-    formatBold(text: string): string {
+    private formatBold(text: string): string {
         return `*${text}*`;
     }
-    formatItalic(text: string): string {
+    private formatItalic(text: string): string {
         return `_${text}_`;
     }
-    formatStrikethrough(text: string): string {
+    private formatStrikethrough(text: string): string {
         return `~${text}~`;
     }
-    formatMonospace(text: string): string {
+    private formatMonospace(text: string): string {
         return `\`${text}\``;
     }
 

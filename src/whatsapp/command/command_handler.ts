@@ -53,7 +53,7 @@ export class CommandHandler {
           command: cmd.command,
           description: cmd.description,
         }));
-      }
+    }
     
     private async sendHelpMessage(client: Whatsapp, message: Message) {
         const commands = this.listCommands();
@@ -64,6 +64,6 @@ export class CommandHandler {
         });
     
         await client.sendText(message.from, helpMessage);
-      }
+    }
   }
   

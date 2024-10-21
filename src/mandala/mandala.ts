@@ -11,7 +11,7 @@ export class Mandala {
     private people: string[];
     private places: Place[];
     private taskDirectory: string;
-    logger: ILogger;
+    private logger: ILogger;
 
     constructor(logger: ILogger) {
         this.logger = logger;
@@ -27,7 +27,7 @@ export class Mandala {
         }
     }
 
-    loadData(type: 'mandala_people' | 'places'): any[] {
+    private loadData(type: 'mandala_people' | 'places'): any[] {
         const filePath = path.resolve(process.cwd(), `data/${type}.json`);
         if (!fs.existsSync(filePath)) {
             this.logger.error(`${type}.json não encontrado.`);
@@ -36,7 +36,7 @@ export class Mandala {
         const data = fs.readFileSync(filePath, 'utf8');
         return JSON.parse(data);
     }
-    saveData(type: 'mandala_people' | 'places', data: any[]) {
+    private saveData(type: 'mandala_people' | 'places', data: any[]) {
         const filePath = path.resolve(process.cwd(), `data/${type}.json`);
         fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
     }

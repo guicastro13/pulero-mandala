@@ -14,11 +14,11 @@ import { PunishPersonCommand } from "./command/commands/punish_person";
 import { RemoveAllPunishCommand } from "./command/commands/remove_all_punish";
 
 export class Communicator {
-  client: Whatsapp;
-  mandala: Mandala;
-  logger: ILogger;
-  commandHandler: CommandHandler;
-  punisher: PunishSystem;
+  private client: Whatsapp;
+  private mandala: Mandala;
+  private logger: ILogger;
+  private commandHandler: CommandHandler;
+  private punisher: PunishSystem;
 
   constructor(logger: ILogger, client: Whatsapp) {
     this.logger = logger;
