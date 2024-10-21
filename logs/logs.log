@@ -239,6 +239,7 @@
 {"level":30,"time":1728960870955,"pid":11464,"hostname":"castro","msg":"WhatsApp server started"}
 {"level":30,"time":1728960879500,"pid":11464,"hostname":"castro","msg":"Recieved command: !multa(Castro,)"}
 {"level":30,"time":1728960879585,"pid":11464,"hostname":"castro","msg":"Recieved command: Aqui estão os comandos disponíveis:\n\n!hello: Responde uma mensagem engraçada.\n!mandala: Gera uma mandala.\n!add: Adiciona uma pessoa à mandala. Uso: !add(nome)\n!remover: Remove uma pessoa da mandala. Uso: !remover(nome)\n!mandala_members: Lista os membros da mandala.\n!get_mandala: Pega uma mandala gerada.\n!multa: Multa uma pessoa. Uso: !multa(nome,motivo)\n!get_punished: Retorna as pessoas que foram multadas.\n!caducou: Remove todas as multas aplicadas.\n"}
+<<<<<<< HEAD
 {"level":30,"time":1729037982784,"pid":6832,"hostname":"castro","msg":"WhatsApp server started"}
 {"level":30,"time":1729038011058,"pid":14612,"hostname":"castro","msg":"WhatsApp server started"}
 {"level":30,"time":1729038016403,"pid":14612,"hostname":"castro","msg":"QR Code capturado."}
@@ -326,3 +327,58 @@
 {"level":30,"time":1729044739269,"pid":9436,"hostname":"castro","msg":"Recieved command: undefined"}
 {"level":30,"time":1729044739275,"pid":9436,"hostname":"castro","msg":"Recieved command: undefined"}
 {"level":30,"time":1729044739283,"pid":9436,"hostname":"castro","msg":"Recieved command: undefined"}
+=======
+{"level":30,"time":1729291226541,"pid":37907,"hostname":"Guilhermes-Air","msg":"WhatsApp server started"}
+{"level":30,"time":1729291233035,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: "}
+{"level":30,"time":1729291233039,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: "}
+{"level":30,"time":1729291233040,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: "}
+{"level":30,"time":1729291233041,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: "}
+{"level":30,"time":1729291233042,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: "}
+{"level":30,"time":1729291233043,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: "}
+{"level":30,"time":1729291233044,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: "}
+{"level":30,"time":1729291233045,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: "}
+{"level":30,"time":1729291233047,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: "}
+{"level":30,"time":1729291233048,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: "}
+{"level":30,"time":1729291233050,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: "}
+{"level":30,"time":1729291233051,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: "}
+{"level":30,"time":1729291233052,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: "}
+{"level":30,"time":1729291233053,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: "}
+{"level":30,"time":1729291233054,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: 🤩 *ATENÇÃO!* 🤩\n*Horários disponíveis*\n\n*HOJE 18/10*\n19h, 20h e 21h\n\n*AMANHÃ 19/10*\n09h, 10h, 11h, 12h, 13h e 14h\n\n Poderá agendar: Lesson, revisão, tirar dúvidas, treinar para entrevista, correção de currículo, whatever you want! 🏁"}
+{"level":30,"time":1729291234569,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: undefined"}
+{"level":30,"time":1729291234619,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: undefined"}
+{"level":30,"time":1729291234621,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: undefined"}
+{"level":30,"time":1729291234623,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: undefined"}
+{"level":30,"time":1729291234627,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: undefined"}
+{"level":30,"time":1729291234628,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: undefined"}
+{"level":30,"time":1729291234631,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: undefined"}
+{"level":30,"time":1729291234633,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: undefined"}
+{"level":30,"time":1729291234637,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: undefined"}
+{"level":30,"time":1729291234639,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: undefined"}
+{"level":30,"time":1729291234641,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: undefined"}
+{"level":30,"time":1729291234643,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: undefined"}
+{"level":30,"time":1729291234647,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: undefined"}
+{"level":30,"time":1729291234695,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: !"}
+{"level":30,"time":1729291234774,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: Aqui estão os comandos disponíveis:\n\n!add: Adiciona uma pessoa à mandala. Uso: !add(nome)\n!mandala: Gera uma mandala.\n!get_mandala: Pega uma mandala gerada.\n!mandala_members: Lista os membros da mandala.\n!get_punished: Retorna as pessoas que foram multadas.\n!hello: Responde uma mensagem engraçada.\n!multa: Multa uma pessoa. Uso: !multa(nome,motivo)\n!caducou: Remove todas as multas aplicadas.\n!remover: Remove uma pessoa da mandala. Uso: !remover(nome)\n"}
+{"level":30,"time":1729291246404,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: !get_mandala"}
+{"level":30,"time":1729291246417,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: Pegando sua mandala..."}
+{"level":30,"time":1729291246640,"pid":37907,"hostname":"Guilhermes-Air","msg":"Nenhuma tarefa encontrada na mandala."}
+{"level":50,"time":1729291246641,"pid":37907,"hostname":"Guilhermes-Air","msg":"Erro ao ler o diretório de tarefas"}
+{"level":30,"time":1729291246641,"pid":37907,"hostname":"Guilhermes-Air","msg":"Erro ao ler as tarefas."}
+{"level":30,"time":1729291246644,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: Erro ao ler as tarefas."}
+{"level":30,"time":1729291259208,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: !mandala"}
+{"level":30,"time":1729291259219,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: Gerando sua mandala..."}
+{"level":30,"time":1729291259449,"pid":37907,"hostname":"Guilhermes-Air","msg":"Inicializar as tarefas possíveis para cada pessoa"}
+{"level":30,"time":1729291259449,"pid":37907,"hostname":"Guilhermes-Air","msg":"Tentativa de atribuir pessoas a lugares"}
+{"level":30,"time":1729291259450,"pid":37907,"hostname":"Guilhermes-Air","msg":"Atribuições concluídas com sucesso"}
+{"level":30,"time":1729291259495,"pid":37907,"hostname":"Guilhermes-Air","msg":"Mandala de tarefas gerada para a semana. Verifique o diretório Tasks."}
+{"level":30,"time":1729291272597,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: !get_mandala"}
+{"level":30,"time":1729291272608,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: Pegando sua mandala..."}
+{"level":30,"time":1729291272839,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: Mandala de Tarefas - Semana 10/18/2024\n\nSala + Corredor Frente:\n- as\n\nLavabo + Corredor Quartos:\n- oi\n\nBanheiro Meio:\n- James\n\nBanheiro Suite:\n- Castro\n\nFundo:\n- Dylan\n- Pix\n\nGaragem + Frente:\n- Penado\n- Cafe\n\nSalol + Sala Antiga:\n- Greg\n- Cabeca\n\nLavanderia + Banheiro Fundo + Cozinha:\n- Chris\n- Bordel\n\n\n"}
+{"level":30,"time":1729291275930,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: Kkkkkk"}
+{"level":30,"time":1729291316140,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: !get_mandala_members"}
+{"level":30,"time":1729291316159,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: Aqui estão os comandos disponíveis:\n\n!add: Adiciona uma pessoa à mandala. Uso: !add(nome)\n!mandala: Gera uma mandala.\n!get_mandala: Pega uma mandala gerada.\n!mandala_members: Lista os membros da mandala.\n!get_punished: Retorna as pessoas que foram multadas.\n!hello: Responde uma mensagem engraçada.\n!multa: Multa uma pessoa. Uso: !multa(nome,motivo)\n!caducou: Remove todas as multas aplicadas.\n!remover: Remove uma pessoa da mandala. Uso: !remover(nome)\n"}
+{"level":30,"time":1729291326003,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: !mandala_members"}
+{"level":30,"time":1729291326013,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: Membros da mandala: Cabeca, Cafe, Bordel, Chris, Greg, Dylan, Castro, Pix, James, Penado, oi, as"}
+{"level":30,"time":1729291341434,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: !caducou"}
+{"level":30,"time":1729291536309,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wgARCAArAEgDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAEDBAUC/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAIBA//aAAwDAQACEAMQAAAA4o78wF8aMYRqASBbV3YqrkasgIuQJBquxeJ0KxAAf//EABkRAAIDAQAAAAAAAAAAAAAAAAERAiAhAP/aAAgBAgEBPwC0ih0AVtFrp//EABkRAAIDAQAAAAAAAAAAAAAAABEgAAIhAf/aAAgBAwEBPwBq8MsDiHE//8QAJhAAAQMDAwIHAAAAAAAAAAAAAQIDBAARIAUhMUFREhMUIjBCYf/aAAgBAQABPwDACmoy3ElQ2A60RY2zjtFxYHAqS4GR5TatutHnKOyp9wJSKmwm4kZJ8Xv7UpRUb5AXNaa0mJGMl4WH1HetQlqkunfbPT2m1ulTpshG5/a1LUPUkIb2aTwPgCiGyAec/wD//gADAP/Z"}
+>>>>>>> 0afc483c9a43e6fdf4b4f3db1c2a5ce6a10b7df8

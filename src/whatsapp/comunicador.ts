@@ -2,16 +2,11 @@ import { Message, Whatsapp } from "@wppconnect-team/wppconnect";
 import { ILogger } from "../helpers/logger";
 import { Mandala } from "../mandala/mandala";
 import { CommandHandler } from "./command/command_handler";
-import { HelloCommand } from "./command/commands/hello_command";
-import { GenerateMandalaCommand } from "./command/commands/generate_mandala_command";
-import { AddPersonMandalaCommand } from "./command/commands/add_person_mandala_command";
-import { RemoverPersonMandalaCommand } from "./command/commands/remover_person_mandala_command";
-import { GetMandalaMembersCommand } from "./command/commands/get_mandala_members";
-import { GetMandalaCommand } from "./command/commands/get_mandala_command";
-import { GetPeoplePunishdCommand } from "./command/commands/get_people_punishd";
 import { PunishSystem } from "../punish_points/punish_points";
-import { PunishPersonCommand } from "./command/commands/punish_person";
-import { RemoveAllPunishCommand } from "./command/commands/remove_all_punish";
+import { ICommand } from "./command/interface_command";
+import "reflect-metadata";
+import * as fs from "fs";
+import * as path from "path";
 
 export class Communicator {
   private client: Whatsapp;
@@ -31,15 +26,18 @@ export class Communicator {
   }
 
   private registerCommands() {
-    this.commandHandler.registerCommand(new HelloCommand());
-    this.commandHandler.registerCommand(new GenerateMandalaCommand(this.mandala));
-    this.commandHandler.registerCommand(new AddPersonMandalaCommand(this.mandala));
-    this.commandHandler.registerCommand(new RemoverPersonMandalaCommand(this.mandala));
-    this.commandHandler.registerCommand(new GetMandalaMembersCommand(this.mandala));
-    this.commandHandler.registerCommand(new GetMandalaCommand(this.mandala));
-    this.commandHandler.registerCommand(new PunishPersonCommand(this.punisher));
-    this.commandHandler.registerCommand(new GetPeoplePunishdCommand(this.punisher));
-    this.commandHandler.registerCommand(new RemoveAllPunishCommand(this.punisher));
+    const commandsPath = path.resolve(__dirname, "./command/commands");
+    fs.readdirSync(commandsPath).forEach((file) => {
+      if (file.endsWith(".ts") || file.endsWith(".js")) {
+        const commandModule = require(path.join(commandsPath, file));
+        Object.values(commandModule).forEach((CommandClass: any) => {
+          if (Reflect.getMetadata("isCommand", CommandClass)) {
+            const commandInstance: ICommand = new CommandClass(this.mandala, this.punisher);
+            this.commandHandler.registerCommand(commandInstance);
+          }
+        });
+      }
+    });
   }
 
   async processCommand(message: Message) {

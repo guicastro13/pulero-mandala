@@ -1,7 +1,9 @@
 import { Message, Whatsapp } from "@wppconnect-team/wppconnect";
 import { Mandala } from "../../../mandala/mandala";
 import { ICommand } from "../interface_command";
+import { Command } from "../command_decorator";
 
+@Command()
 export class GetMandalaMembersCommand implements ICommand {
     command = "!mandala_members";
     description = "Lista os membros da mandala.";
