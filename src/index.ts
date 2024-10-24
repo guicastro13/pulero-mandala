@@ -22,8 +22,4 @@ const api_server = new ApiServer(logger, 3000);
 const whatsapp = new WhatsServer(logger);
 
 whatsapp.start(config);
-api_server.start();
-
-setInterval(() => {
-    whatsapp.start(config);
-}, 90000);
+// api_server.start();

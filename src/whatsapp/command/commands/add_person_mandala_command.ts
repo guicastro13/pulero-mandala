@@ -2,8 +2,9 @@ import { Message, Whatsapp } from "@wppconnect-team/wppconnect";
 import { Mandala } from "../../../mandala/mandala";
 import { ICommand } from "../interface_command";
 import { Command } from "../command_decorator";
+import { WhatsGroups } from "../command_handler";
 
-@Command()
+@Command({ group: WhatsGroups.PULERO, requires: ["mandala"] })
 export class AddPersonMandalaCommand implements ICommand {
     command = "!add";
     description = "Adiciona uma pessoa à mandala. Uso: !add(nome)";
@@ -13,9 +14,9 @@ export class AddPersonMandalaCommand implements ICommand {
     async execute(client: Whatsapp, message: Message, args: string): Promise<void> {
       if (args) {
         await this.mandala.addPerson(args);
-        await client.sendText(message.from, `Adicionando esse corno ${args}...`);
+        await client.sendText(WhatsGroups.PULERO, `Adicionando o cornno do ${args}...`);
       } else {
-        await client.sendText(message.from, "Ta errado o comando.");
+        await client.sendText(WhatsGroups.PULERO, "Ta errado o comando.");
       }
     }
   }

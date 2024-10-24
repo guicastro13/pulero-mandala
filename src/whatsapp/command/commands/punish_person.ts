@@ -1,8 +1,9 @@
 import { Message, Whatsapp } from "@wppconnect-team/wppconnect";
 import { PunishSystem } from "../../../punish_points/punish_points";
 import { Command } from "../command_decorator";
+import { WhatsGroups } from "../command_handler";
 
-@Command()
+@Command({ group: WhatsGroups.PULERO, requires: ["punisher"] })
 export class PunishPersonCommand {
     command = "!multa";
     description = "Multa uma pessoa. Uso: !multa(nome,motivo)";
@@ -12,6 +13,6 @@ export class PunishPersonCommand {
         console.log(nome_motivo);
         const [person, motivo] = nome_motivo.split(',');
         this.punish_system.addPoints(person.trim(), motivo.trim());
-        await client.sendText(message.from, `${person} multado...`);
+        await client.sendText(WhatsGroups.PULERO, `${person} multado...`);
     }
 }

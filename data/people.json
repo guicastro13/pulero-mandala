@@ -44,10 +44,8 @@
   {
     "name": "Castro",
     "points": {
-      "total": 1,
-      "reasons": [
-        "teste"
-      ]
+      "total": 0,
+      "reasons": []
     }
   },
   {
@@ -80,6 +78,13 @@
   },
   {
     "name": "Xupeta",
+    "points": {
+      "total": 0,
+      "reasons": []
+    }
+  },
+  {
+    "name": "Grecia",
     "points": {
       "total": 0,
       "reasons": []

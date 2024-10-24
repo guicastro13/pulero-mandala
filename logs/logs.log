@@ -382,3 +382,872 @@
 {"level":30,"time":1729291341434,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: !caducou"}
 {"level":30,"time":1729291536309,"pid":37907,"hostname":"Guilhermes-Air","msg":"Recieved command: /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wgARCAArAEgDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAEDBAUC/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAIBA//aAAwDAQACEAMQAAAA4o78wF8aMYRqASBbV3YqrkasgIuQJBquxeJ0KxAAf//EABkRAAIDAQAAAAAAAAAAAAAAAAERAiAhAP/aAAgBAgEBPwC0ih0AVtFrp//EABkRAAIDAQAAAAAAAAAAAAAAABEgAAIhAf/aAAgBAwEBPwBq8MsDiHE//8QAJhAAAQMDAwIHAAAAAAAAAAAAAQIDBAARIAUhMUFREhMUIjBCYf/aAAgBAQABPwDACmoy3ElQ2A60RY2zjtFxYHAqS4GR5TatutHnKOyp9wJSKmwm4kZJ8Xv7UpRUb5AXNaa0mJGMl4WH1HetQlqkunfbPT2m1ulTpshG5/a1LUPUkIb2aTwPgCiGyAec/wD//gADAP/Z"}
 >>>>>>> 0afc483c9a43e6fdf4b4f3db1c2a5ce6a10b7df8
+{"level":30,"time":1729636466302,"pid":1900,"hostname":"castro","msg":"API server started on port 3000"}
+{"level":30,"time":1729636469928,"pid":1900,"hostname":"castro","msg":"Status find: desconnectedMobile"}
+{"level":30,"time":1729636470031,"pid":1900,"hostname":"castro","msg":"Status find: notLogged"}
+{"level":30,"time":1729636521380,"pid":1900,"hostname":"castro","msg":"Status find: qrReadSuccess"}
+{"level":30,"time":1729636521566,"pid":1900,"hostname":"castro","msg":"Loading: 0 - Loading your chats"}
+{"level":30,"time":1729636522605,"pid":1900,"hostname":"castro","msg":"WhatsApp server started"}
+{"level":30,"time":1729636523751,"pid":1900,"hostname":"castro","msg":"Loading: 100 - Loading your chats"}
+{"level":30,"time":1729636523893,"pid":1900,"hostname":"castro","msg":"Status find: inChat"}
+{"level":30,"time":1729636529033,"pid":1900,"hostname":"castro","msg":"Recieved command: "}
+{"level":30,"time":1729636529040,"pid":1900,"hostname":"castro","msg":"Recieved command: "}
+{"level":30,"time":1729636529043,"pid":1900,"hostname":"castro","msg":"Recieved command: "}
+{"level":30,"time":1729636529045,"pid":1900,"hostname":"castro","msg":"Recieved command: "}
+{"level":30,"time":1729636529046,"pid":1900,"hostname":"castro","msg":"Recieved command: "}
+{"level":30,"time":1729636529498,"pid":1900,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1729636529585,"pid":1900,"hostname":"castro","msg":"Recieved command: Vôlei 23/10 - 20h\n1. Tião\n2. ⁠Natã\n3. Marcelo\n4. ⁠Renan\n5. ⁠Jheni\n6. Gui\n7. Luiz\n8. Pedrocaaa\n9. Renan Oliveira"}
+{"level":30,"time":1729636534302,"pid":1900,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1729636534309,"pid":1900,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1729636534313,"pid":1900,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1729636534316,"pid":1900,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1729636534320,"pid":1900,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1729636534325,"pid":1900,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1729636534329,"pid":1900,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1729636534333,"pid":1900,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1729636534336,"pid":1900,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1729636534340,"pid":1900,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1729636534345,"pid":1900,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1729636534351,"pid":1900,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1729636534357,"pid":1900,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":50,"time":1729636556414,"pid":1900,"hostname":"castro","msg":"Error initializing WhatsApp server: "}
+{"level":30,"time":1729636582886,"pid":14104,"hostname":"castro","msg":"API server started on port 3000"}
+{"level":30,"time":1729636584723,"pid":14104,"hostname":"castro","msg":"Loading: 0 - WhatsApp"}
+{"level":30,"time":1729636586557,"pid":14104,"hostname":"castro","msg":"Loading: 0 - Loading your chats"}
+{"level":30,"time":1729636586598,"pid":14104,"hostname":"castro","msg":"Status find: notLogged"}
+{"level":30,"time":1729636586961,"pid":14104,"hostname":"castro","msg":"Status find: qrReadError"}
+{"level":30,"time":1729636586961,"pid":14104,"hostname":"castro","msg":"Status find: autocloseCalled"}
+{"level":50,"time":1729636586962,"pid":14104,"hostname":"castro","msg":"Error initializing WhatsApp server: "}
+{"level":30,"time":1729636586988,"pid":14104,"hostname":"castro","msg":"Status find: browserClose"}
+{"level":30,"time":1729636625546,"pid":1532,"hostname":"castro","msg":"API server started on port 3000"}
+{"level":30,"time":1729636631328,"pid":1532,"hostname":"castro","msg":"Status find: desconnectedMobile"}
+{"level":30,"time":1729636631613,"pid":1532,"hostname":"castro","msg":"Status find: notLogged"}
+{"level":30,"time":1729636662068,"pid":1532,"hostname":"castro","msg":"Status find: qrReadSuccess"}
+{"level":30,"time":1729636662386,"pid":1532,"hostname":"castro","msg":"Loading: 0 - Carregando suas conversas"}
+{"level":30,"time":1729636663277,"pid":1532,"hostname":"castro","msg":"WhatsApp server started"}
+{"level":30,"time":1729636664870,"pid":1532,"hostname":"castro","msg":"Loading: 100 - Carregando suas conversas"}
+{"level":30,"time":1729636664995,"pid":1532,"hostname":"castro","msg":"Status find: inChat"}
+{"level":30,"time":1729636666609,"pid":1532,"hostname":"castro","msg":"Loading: 0 - WhatsApp"}
+{"level":30,"time":1729636666681,"pid":1532,"hostname":"castro","msg":"Loading: 0 - Loading your chats"}
+{"level":30,"time":1729636673397,"pid":1532,"hostname":"castro","msg":"Status find: desconnectedMobile"}
+{"level":30,"time":1729636675251,"pid":1532,"hostname":"castro","msg":"Status find: notLogged"}
+{"level":30,"time":1729636704491,"pid":1532,"hostname":"castro","msg":"Status find: qrReadSuccess"}
+{"level":30,"time":1729636707246,"pid":1532,"hostname":"castro","msg":"Loading: 100 - Loading your chats"}
+{"level":30,"time":1729636707393,"pid":1532,"hostname":"castro","msg":"Status find: inChat"}
+{"level":30,"time":1729636710630,"pid":1532,"hostname":"castro","msg":"Recieved command: "}
+{"level":30,"time":1729636710641,"pid":1532,"hostname":"castro","msg":"Recieved command: "}
+{"level":30,"time":1729636710645,"pid":1532,"hostname":"castro","msg":"Recieved command: "}
+{"level":30,"time":1729636710657,"pid":1532,"hostname":"castro","msg":"Recieved command: "}
+{"level":30,"time":1729636710660,"pid":1532,"hostname":"castro","msg":"Recieved command: "}
+{"level":30,"time":1729636714374,"pid":1532,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1729636714382,"pid":1532,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1729636714390,"pid":1532,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1729636714397,"pid":1532,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1729636714408,"pid":1532,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1729636714415,"pid":1532,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1729636714422,"pid":1532,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1729636714430,"pid":1532,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1729636714440,"pid":1532,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1729636714449,"pid":1532,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":30,"time":1729636714457,"pid":1532,"hostname":"castro","msg":"Recieved command: undefined"}
+{"level":50,"time":1729636715748,"pid":1532,"hostname":"castro","msg":"Error initializing WhatsApp server: "}
+{"level":50,"time":1729636805669,"pid":1532,"hostname":"castro","msg":"Error initializing WhatsApp server: "}
+{"level":50,"time":1729636895702,"pid":1532,"hostname":"castro","msg":"Error initializing WhatsApp server: "}
+{"level":50,"time":1729636985674,"pid":1532,"hostname":"castro","msg":"Error initializing WhatsApp server: "}
+{"level":50,"time":1729637075812,"pid":1532,"hostname":"castro","msg":"Error initializing WhatsApp server: "}
+{"level":50,"time":1729637165734,"pid":1532,"hostname":"castro","msg":"Error initializing WhatsApp server: "}
+{"level":50,"time":1729637255711,"pid":1532,"hostname":"castro","msg":"Error initializing WhatsApp server: "}
+{"level":50,"time":1729637345719,"pid":1532,"hostname":"castro","msg":"Error initializing WhatsApp server: "}
+{"level":50,"time":1729637435884,"pid":1532,"hostname":"castro","msg":"Error initializing WhatsApp server: "}
+{"level":30,"time":1729637467269,"pid":1532,"hostname":"castro","msg":"Recieved command: /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wgARCAApAEgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAMBAgQFBv/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAAewbvKy8iyGi4ZJmGEq9Hmbx6G3FeatXKqdS3E0m05IZRBjT6rgZdIaLZYNBmLP/EABkRAAMBAQEAAAAAAAAAAAAAAAABERIQIP/aAAgBAgEBPwDwzRpGkaRUQnIJH//EABcRAQEBAQAAAAAAAAAAAAAAAAARIAH/2gAIAQMBAT8AxxERN//EACcQAAEDAQgCAwEBAAAAAAAAAAEAAgMRBBASFCFBUVMFEzE0cSKR/9oACAEBAAE/ALPBEYGExt+Fl4etqy8PW1ZeHrasvD1tWXh62rLw9bf8WXh62q0wRCzvIjbWis312fl2La58uGVrKaG7FtdavrSfis00fpY3EK0VVvdITm2Da7e61fXk/FHaHxtDtx8LPzYgcRTPJTYRoCh5R1RVidb2GcSYdApPJPcTg04Rt8xcHbjZM8mSP6bQq1+RkeC1lA0hRwigqRUr00OyLZG8UThLWmi9Uo3C9b6AEhCIB1cSLGg1BUlCDUBNJ01VTyqnkqp5KqeSqnkqp5KqeU4nlf/+AAMA/9k="}
+{"level":50,"time":1729637525720,"pid":1532,"hostname":"castro","msg":"Error initializing WhatsApp server: "}
+{"level":50,"time":1729637615731,"pid":1532,"hostname":"castro","msg":"Error initializing WhatsApp server: "}
+{"level":50,"time":1729637705755,"pid":1532,"hostname":"castro","msg":"Error initializing WhatsApp server: "}
+{"level":30,"time":1729637731446,"pid":1532,"hostname":"castro","msg":"Recieved command: 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"}
+{"level":50,"time":1729637795750,"pid":1532,"hostname":"castro","msg":"Error initializing WhatsApp server: "}
+{"level":50,"time":1729637885877,"pid":1532,"hostname":"castro","msg":"Error initializing WhatsApp server: "}
+{"level":50,"time":1729637975765,"pid":1532,"hostname":"castro","msg":"Error initializing WhatsApp server: "}
+{"level":50,"time":1729638065763,"pid":1532,"hostname":"castro","msg":"Error initializing WhatsApp server: "}
+{"level":30,"time":1729638101680,"pid":8276,"hostname":"castro","msg":"API server started on port 3000"}
+{"level":30,"time":1729638105300,"pid":8276,"hostname":"castro","msg":"Loading: 0 - WhatsApp"}
+{"level":30,"time":1729638106555,"pid":8276,"hostname":"castro","msg":"Status find: notLogged"}
+{"level":30,"time":1729638107179,"pid":8276,"hostname":"castro","msg":"Status find: desconnectedMobile"}
+{"level":30,"time":1729638107974,"pid":8276,"hostname":"castro","msg":"Status find: qrReadError"}
+{"level":30,"time":1729638107975,"pid":8276,"hostname":"castro","msg":"Status find: autocloseCalled"}
+{"level":50,"time":1729638107975,"pid":8276,"hostname":"castro","msg":"Error initializing WhatsApp server: "}
+{"level":30,"time":1729638107999,"pid":8276,"hostname":"castro","msg":"Status find: browserClose"}
+{"level":30,"time":1729638160506,"pid":3476,"hostname":"castro","msg":"API server started on port 3000"}
+{"level":30,"time":1729638164855,"pid":3476,"hostname":"castro","msg":"Status find: notLogged"}
+{"level":30,"time":1729638165643,"pid":3476,"hostname":"castro","msg":"Status find: desconnectedMobile"}
+{"level":30,"time":1729638193399,"pid":3476,"hostname":"castro","msg":"Status find: qrReadSuccess"}
+{"level":30,"time":1729638193429,"pid":3476,"hostname":"castro","msg":"Loading: 0 - Carregando suas conversas"}
+{"level":30,"time":1729638194606,"pid":3476,"hostname":"castro","msg":"WhatsApp server started"}
+{"level":30,"time":1729638195925,"pid":3476,"hostname":"castro","msg":"Loading: 100 - Carregando suas conversas"}
+{"level":30,"time":1729638196064,"pid":3476,"hostname":"castro","msg":"Status find: inChat"}
+{"level":30,"time":1729638196065,"pid":3476,"hostname":"castro","msg":"Status find: inChat"}
+{"level":30,"time":1729638197685,"pid":3476,"hostname":"castro","msg":"Loading: 0 - WhatsApp"}
+{"level":30,"time":1729638197710,"pid":3476,"hostname":"castro","msg":"Loading: 0 - Loading your chats"}
+{"level":30,"time":1729638232669,"pid":3476,"hostname":"castro","msg":"Status find: desconnectedMobile"}
+{"level":30,"time":1729638234846,"pid":3476,"hostname":"castro","msg":"Status find: notLogged"}
+{"level":30,"time":1729638246702,"pid":3476,"hostname":"castro","msg":"Status find: qrReadSuccess"}
+{"level":30,"time":1729638249130,"pid":3476,"hostname":"castro","msg":"Loading: 100 - Loading your chats"}
+{"level":30,"time":1729638249258,"pid":3476,"hostname":"castro","msg":"Status find: inChat"}
+{"level":30,"time":1729638249259,"pid":3476,"hostname":"castro","msg":"Status find: inChat"}
+{"level":30,"time":1729638252287,"pid":3476,"hostname":"castro","msg":"Received command: "}
+{"level":30,"time":1729638252297,"pid":3476,"hostname":"castro","msg":"Received command: "}
+{"level":30,"time":1729638252309,"pid":3476,"hostname":"castro","msg":"Received command: "}
+{"level":30,"time":1729638252314,"pid":3476,"hostname":"castro","msg":"Received command: "}
+{"level":30,"time":1729638252329,"pid":3476,"hostname":"castro","msg":"Received command: "}
+{"level":50,"time":1729638252455,"pid":3476,"hostname":"castro","msg":"Error initializing WhatsApp server: "}
+{"level":30,"time":1729638256046,"pid":3476,"hostname":"castro","msg":"Received command: undefined"}
+{"level":30,"time":1729638256051,"pid":3476,"hostname":"castro","msg":"Received command: undefined"}
+{"level":30,"time":1729638256062,"pid":3476,"hostname":"castro","msg":"Received command: undefined"}
+{"level":30,"time":1729638256072,"pid":3476,"hostname":"castro","msg":"Received command: undefined"}
+{"level":30,"time":1729638256079,"pid":3476,"hostname":"castro","msg":"Received command: undefined"}
+{"level":30,"time":1729638256088,"pid":3476,"hostname":"castro","msg":"Received command: undefined"}
+{"level":30,"time":1729638256096,"pid":3476,"hostname":"castro","msg":"Received command: undefined"}
+{"level":30,"time":1729638256104,"pid":3476,"hostname":"castro","msg":"Received command: undefined"}
+{"level":30,"time":1729638256112,"pid":3476,"hostname":"castro","msg":"Received command: undefined"}
+{"level":30,"time":1729638256120,"pid":3476,"hostname":"castro","msg":"Received command: undefined"}
+{"level":30,"time":1729638256128,"pid":3476,"hostname":"castro","msg":"Received command: undefined"}
+{"level":30,"time":1729638257556,"pid":3476,"hostname":"castro","msg":"Received command: @5511933569536"}
+{"level":50,"time":1729638342443,"pid":3476,"hostname":"castro","msg":"Error initializing WhatsApp server: "}
+{"level":50,"time":1729638432538,"pid":3476,"hostname":"castro","msg":"Error initializing WhatsApp server: "}
+{"level":30,"time":1729639091071,"pid":1456,"hostname":"castro","msg":"API server started on port 3000"}
+{"level":30,"time":1729639093946,"pid":1456,"hostname":"castro","msg":"Loading: 0 - WhatsApp"}
+{"level":30,"time":1729639095481,"pid":1456,"hostname":"castro","msg":"Status find: desconnectedMobile"}
+{"level":30,"time":1729639099121,"pid":1456,"hostname":"castro","msg":"Status find: notLogged"}
+{"level":30,"time":1729639117078,"pid":1456,"hostname":"castro","msg":"Status find: qrReadSuccess"}
+{"level":30,"time":1729639117483,"pid":1456,"hostname":"castro","msg":"Loading: 0 - Carregando suas conversas"}
+{"level":30,"time":1729639118308,"pid":1456,"hostname":"castro","msg":"WhatsApp server started"}
+{"level":30,"time":1729639119600,"pid":1456,"hostname":"castro","msg":"Loading: 100 - Carregando suas conversas"}
+{"level":30,"time":1729639119725,"pid":1456,"hostname":"castro","msg":"Status find: inChat"}
+{"level":30,"time":1729639119727,"pid":1456,"hostname":"castro","msg":"Status find: inChat"}
+{"level":50,"time":1729639181174,"pid":1456,"hostname":"castro","msg":"Error initializing WhatsApp server: "}
+{"level":50,"time":1729639271201,"pid":1456,"hostname":"castro","msg":"Error initializing WhatsApp server: "}
+{"level":50,"time":1729639361286,"pid":1456,"hostname":"castro","msg":"Error initializing WhatsApp server: "}
+{"level":50,"time":1729639451198,"pid":1456,"hostname":"castro","msg":"Error initializing WhatsApp server: "}
+{"level":50,"time":1729639541209,"pid":1456,"hostname":"castro","msg":"Error initializing WhatsApp server: "}
+{"level":50,"time":1729639631224,"pid":1456,"hostname":"castro","msg":"Error initializing WhatsApp server: "}
+{"level":30,"time":1729639657491,"pid":15932,"hostname":"castro","msg":"API server started on port 3000"}
+{"level":30,"time":1729639658445,"pid":15932,"hostname":"castro","msg":"Loading: 0 - WhatsApp"}
+{"level":30,"time":1729639661929,"pid":15932,"hostname":"castro","msg":"Status find: desconnectedMobile"}
+{"level":30,"time":1729639667261,"pid":15932,"hostname":"castro","msg":"Status find: notLogged"}
+{"level":30,"time":1729639686801,"pid":15932,"hostname":"castro","msg":"Status find: qrReadSuccess"}
+{"level":30,"time":1729639687014,"pid":15932,"hostname":"castro","msg":"Loading: 0 - Carregando suas conversas"}
+{"level":30,"time":1729639688007,"pid":15932,"hostname":"castro","msg":"WhatsApp server started"}
+{"level":30,"time":1729639689504,"pid":15932,"hostname":"castro","msg":"Loading: 100 - Carregando suas conversas"}
+{"level":30,"time":1729639689677,"pid":15932,"hostname":"castro","msg":"Status find: inChat"}
+{"level":30,"time":1729639689678,"pid":15932,"hostname":"castro","msg":"Status find: inChat"}
+{"level":30,"time":1729639689678,"pid":15932,"hostname":"castro","msg":"Status find: inChat"}
+{"level":50,"time":1729639747608,"pid":15932,"hostname":"castro","msg":"Error initializing WhatsApp server: "}
+{"level":30,"time":1729639831794,"pid":1072,"hostname":"castro","msg":"API server started on port 3000"}
+{"level":30,"time":1729639832949,"pid":1072,"hostname":"castro","msg":"Loading: 0 - WhatsApp"}
+{"level":30,"time":1729639836290,"pid":1072,"hostname":"castro","msg":"Status find: desconnectedMobile"}
+{"level":30,"time":1729639841453,"pid":1072,"hostname":"castro","msg":"Status find: notLogged"}
+{"level":30,"time":1729639858889,"pid":1072,"hostname":"castro","msg":"Status find: qrReadSuccess"}
+{"level":30,"time":1729639859183,"pid":1072,"hostname":"castro","msg":"Loading: 0 - Carregando suas conversas"}
+{"level":30,"time":1729639860103,"pid":1072,"hostname":"castro","msg":"WhatsApp server started"}
+{"level":30,"time":1729639861547,"pid":1072,"hostname":"castro","msg":"Loading: 100 - Carregando suas conversas"}
+{"level":30,"time":1729639861679,"pid":1072,"hostname":"castro","msg":"Status find: inChat"}
+{"level":30,"time":1729639861680,"pid":1072,"hostname":"castro","msg":"Status find: inChat"}
+{"level":50,"time":1729639921898,"pid":1072,"hostname":"castro","msg":"Error initializing WhatsApp server: "}
+{"level":30,"time":1729639949192,"pid":1072,"hostname":"castro","msg":"Status find: desconnectedMobile"}
+{"level":30,"time":1729640072727,"pid":15500,"hostname":"castro","msg":"API server started on port 3000"}
+{"level":30,"time":1729640087303,"pid":15500,"hostname":"castro","msg":"Status find: desconnectedMobile"}
+{"level":30,"time":1729640087422,"pid":15500,"hostname":"castro","msg":"Status find: notLogged"}
+{"level":30,"time":1729640111883,"pid":4916,"hostname":"castro","msg":"Status find: desconnectedMobile"}
+{"level":30,"time":1729640112073,"pid":4916,"hostname":"castro","msg":"Status find: notLogged"}
+{"level":30,"time":1729640122016,"pid":4916,"hostname":"castro","msg":"Status find: qrReadSuccess"}
+{"level":30,"time":1729640122131,"pid":4916,"hostname":"castro","msg":"Loading: 0 - Loading your chats"}
+{"level":30,"time":1729640123220,"pid":4916,"hostname":"castro","msg":"WhatsApp server started"}
+{"level":30,"time":1729640124212,"pid":4916,"hostname":"castro","msg":"Loading: 100 - Loading your chats"}
+{"level":30,"time":1729640124334,"pid":4916,"hostname":"castro","msg":"Status find: inChat"}
+{"level":30,"time":1729640126911,"pid":4916,"hostname":"castro","msg":"Loading: 0 - Loading your chats"}
+{"level":30,"time":1729640128102,"pid":4916,"hostname":"castro","msg":"Status find: inChat"}
+{"level":30,"time":1729640128426,"pid":4916,"hostname":"castro","msg":"Loading: 100 - Loading your chats"}
+{"level":30,"time":1729640262485,"pid":288,"hostname":"castro","msg":"Loading: 0 - WhatsApp"}
+{"level":30,"time":1729640265912,"pid":288,"hostname":"castro","msg":"Status find: isLogged"}
+{"level":30,"time":1729640267139,"pid":288,"hostname":"castro","msg":"WhatsApp server started"}
+{"level":30,"time":1729640267286,"pid":288,"hostname":"castro","msg":"Loading: 100 - WhatsApp"}
+{"level":30,"time":1729640268783,"pid":288,"hostname":"castro","msg":"Status find: inChat"}
+{"level":30,"time":1729640374344,"pid":1764,"hostname":"castro","msg":"Loading: 0 - WhatsApp"}
+{"level":30,"time":1729640375562,"pid":1764,"hostname":"castro","msg":"Status find: isLogged"}
+{"level":30,"time":1729640376792,"pid":1764,"hostname":"castro","msg":"WhatsApp server started"}
+{"level":30,"time":1729640378498,"pid":1764,"hostname":"castro","msg":"Loading: 100 - WhatsApp"}
+{"level":30,"time":1729640380236,"pid":1764,"hostname":"castro","msg":"Status find: inChat"}
+{"level":30,"time":1729640455942,"pid":14236,"hostname":"castro","msg":"Loading: 0 - WhatsApp"}
+{"level":30,"time":1729640459255,"pid":14236,"hostname":"castro","msg":"Status find: isLogged"}
+{"level":30,"time":1729640459523,"pid":14236,"hostname":"castro","msg":"Loading: 100 - WhatsApp"}
+{"level":30,"time":1729640460461,"pid":14236,"hostname":"castro","msg":"WhatsApp server started"}
+{"level":30,"time":1729640460808,"pid":14236,"hostname":"castro","msg":"Status find: inChat"}
+{"level":30,"time":1729640464569,"pid":14236,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640464800,"pid":14236,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640465022,"pid":14236,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640465236,"pid":14236,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640465438,"pid":14236,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640465647,"pid":14236,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640465863,"pid":14236,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640466065,"pid":14236,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640466278,"pid":14236,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640466279,"pid":14236,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729640470267,"pid":14236,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640470267,"pid":14236,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640470267,"pid":14236,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640470267,"pid":14236,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640470267,"pid":14236,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640470267,"pid":14236,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640470267,"pid":14236,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640470267,"pid":14236,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640470267,"pid":14236,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640470267,"pid":14236,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729640471272,"pid":14236,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640471272,"pid":14236,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640471272,"pid":14236,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640471272,"pid":14236,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640471272,"pid":14236,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640471272,"pid":14236,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640471272,"pid":14236,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640471272,"pid":14236,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640471272,"pid":14236,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640471272,"pid":14236,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729640480813,"pid":14236,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640480813,"pid":14236,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640480813,"pid":14236,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640480813,"pid":14236,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640480813,"pid":14236,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640480813,"pid":14236,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640480813,"pid":14236,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640480813,"pid":14236,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640480813,"pid":14236,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640480813,"pid":14236,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729640488667,"pid":14236,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640488667,"pid":14236,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640488667,"pid":14236,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640488667,"pid":14236,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640488667,"pid":14236,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640488667,"pid":14236,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640488667,"pid":14236,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640488667,"pid":14236,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640488667,"pid":14236,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640488667,"pid":14236,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729640510289,"pid":14236,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640510289,"pid":14236,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640510290,"pid":14236,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640510290,"pid":14236,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640510290,"pid":14236,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640510290,"pid":14236,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640510290,"pid":14236,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640510290,"pid":14236,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640510290,"pid":14236,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640510290,"pid":14236,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729640512766,"pid":14236,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640512767,"pid":14236,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640512767,"pid":14236,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640512767,"pid":14236,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640512767,"pid":14236,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640512767,"pid":14236,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640512767,"pid":14236,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640512767,"pid":14236,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640512767,"pid":14236,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640512767,"pid":14236,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729640520686,"pid":14236,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640520686,"pid":14236,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640520686,"pid":14236,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640520686,"pid":14236,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640520686,"pid":14236,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640520686,"pid":14236,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640520687,"pid":14236,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640520687,"pid":14236,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640520687,"pid":14236,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640520687,"pid":14236,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729640525629,"pid":14236,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640525629,"pid":14236,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640525629,"pid":14236,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640525629,"pid":14236,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640525629,"pid":14236,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640525629,"pid":14236,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640525629,"pid":14236,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640525629,"pid":14236,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640525630,"pid":14236,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640525630,"pid":14236,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729640545510,"pid":14236,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640545510,"pid":14236,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640545510,"pid":14236,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640545510,"pid":14236,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640545510,"pid":14236,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640545510,"pid":14236,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640545510,"pid":14236,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640545510,"pid":14236,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640545510,"pid":14236,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640545510,"pid":14236,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729640555539,"pid":16072,"hostname":"castro","msg":"Loading: 0 - WhatsApp"}
+{"level":30,"time":1729640558905,"pid":16072,"hostname":"castro","msg":"Status find: isLogged"}
+{"level":30,"time":1729640559448,"pid":16072,"hostname":"castro","msg":"Loading: 100 - WhatsApp"}
+{"level":30,"time":1729640560112,"pid":16072,"hostname":"castro","msg":"WhatsApp server started"}
+{"level":30,"time":1729640560788,"pid":16072,"hostname":"castro","msg":"Status find: inChat"}
+{"level":30,"time":1729640595788,"pid":16072,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640596036,"pid":16072,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640596253,"pid":16072,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640596455,"pid":16072,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640596649,"pid":16072,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640596850,"pid":16072,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640597049,"pid":16072,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640597259,"pid":16072,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640597489,"pid":16072,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640597489,"pid":16072,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729640597489,"pid":16072,"hostname":"castro","msg":"Command handler: undefined"}
+{"level":30,"time":1729640603080,"pid":16072,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640603080,"pid":16072,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640603080,"pid":16072,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640603080,"pid":16072,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640603080,"pid":16072,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640603080,"pid":16072,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640603080,"pid":16072,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640603080,"pid":16072,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640603080,"pid":16072,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640603080,"pid":16072,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729640603080,"pid":16072,"hostname":"castro","msg":"Command handler: undefined"}
+{"level":30,"time":1729640603116,"pid":16072,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640603116,"pid":16072,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640603116,"pid":16072,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640603116,"pid":16072,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640603116,"pid":16072,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640603116,"pid":16072,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640603116,"pid":16072,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640603116,"pid":16072,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640603116,"pid":16072,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640603116,"pid":16072,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729640603116,"pid":16072,"hostname":"castro","msg":"Command handler: undefined"}
+{"level":30,"time":1729640614446,"pid":16072,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640614446,"pid":16072,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640614446,"pid":16072,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640614446,"pid":16072,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640614446,"pid":16072,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640614446,"pid":16072,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640614446,"pid":16072,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640614446,"pid":16072,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640614446,"pid":16072,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640614446,"pid":16072,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729640614446,"pid":16072,"hostname":"castro","msg":"Command handler: undefined"}
+{"level":30,"time":1729640617312,"pid":16072,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640617312,"pid":16072,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640617312,"pid":16072,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640617312,"pid":16072,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640617312,"pid":16072,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640617312,"pid":16072,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640617312,"pid":16072,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640617312,"pid":16072,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640617312,"pid":16072,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640617312,"pid":16072,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729640617312,"pid":16072,"hostname":"castro","msg":"Command handler: undefined"}
+{"level":30,"time":1729640639039,"pid":16072,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640639039,"pid":16072,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640639039,"pid":16072,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640639039,"pid":16072,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640639039,"pid":16072,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640639039,"pid":16072,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640639039,"pid":16072,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640639040,"pid":16072,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640639040,"pid":16072,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640639040,"pid":16072,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729640639040,"pid":16072,"hostname":"castro","msg":"Command handler: undefined"}
+{"level":30,"time":1729640639847,"pid":16072,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640639847,"pid":16072,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640639847,"pid":16072,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640639847,"pid":16072,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640639847,"pid":16072,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640639847,"pid":16072,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640639847,"pid":16072,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640639847,"pid":16072,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640639847,"pid":16072,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640639847,"pid":16072,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729640639847,"pid":16072,"hostname":"castro","msg":"Command handler: undefined"}
+{"level":30,"time":1729640655250,"pid":16072,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640655250,"pid":16072,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640655250,"pid":16072,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640655250,"pid":16072,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640655250,"pid":16072,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640655250,"pid":16072,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640655250,"pid":16072,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640655250,"pid":16072,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640655250,"pid":16072,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640655250,"pid":16072,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729640655250,"pid":16072,"hostname":"castro","msg":"Command handler: undefined"}
+{"level":30,"time":1729640657556,"pid":16072,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640657556,"pid":16072,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640657556,"pid":16072,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640657556,"pid":16072,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640657556,"pid":16072,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640657556,"pid":16072,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640657556,"pid":16072,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640657556,"pid":16072,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640657556,"pid":16072,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640657556,"pid":16072,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729640657556,"pid":16072,"hostname":"castro","msg":"Command handler: undefined"}
+{"level":30,"time":1729640709866,"pid":1932,"hostname":"castro","msg":"Loading: 0 - WhatsApp"}
+{"level":30,"time":1729640713154,"pid":1932,"hostname":"castro","msg":"Status find: isLogged"}
+{"level":30,"time":1729640713472,"pid":1932,"hostname":"castro","msg":"Loading: 100 - WhatsApp"}
+{"level":30,"time":1729640714358,"pid":1932,"hostname":"castro","msg":"WhatsApp server started"}
+{"level":30,"time":1729640714738,"pid":1932,"hostname":"castro","msg":"Status find: inChat"}
+{"level":30,"time":1729640755084,"pid":1932,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640755335,"pid":1932,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640755542,"pid":1932,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640755743,"pid":1932,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640755938,"pid":1932,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640756132,"pid":1932,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640756324,"pid":1932,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640756533,"pid":1932,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640756752,"pid":1932,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640756752,"pid":1932,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729640756752,"pid":1932,"hostname":"castro","msg":"Command handler: undefined"}
+{"level":30,"time":1729640756752,"pid":1932,"hostname":"castro","msg":"Received command from group default: A"}
+{"level":30,"time":1729640756756,"pid":1932,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640756756,"pid":1932,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640756756,"pid":1932,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640756756,"pid":1932,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640756756,"pid":1932,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640756756,"pid":1932,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640756756,"pid":1932,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640756756,"pid":1932,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640756756,"pid":1932,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640756756,"pid":1932,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729640756756,"pid":1932,"hostname":"castro","msg":"Command handler: undefined"}
+{"level":30,"time":1729640756756,"pid":1932,"hostname":"castro","msg":"Received command from group default: Aa"}
+{"level":30,"time":1729640757110,"pid":1932,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640757110,"pid":1932,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640757110,"pid":1932,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640757110,"pid":1932,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640757110,"pid":1932,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640757110,"pid":1932,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640757110,"pid":1932,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640757110,"pid":1932,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640757110,"pid":1932,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640757110,"pid":1932,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729640757110,"pid":1932,"hostname":"castro","msg":"Command handler: undefined"}
+{"level":30,"time":1729640757110,"pid":1932,"hostname":"castro","msg":"Received command from group default: A"}
+{"level":30,"time":1729640757874,"pid":1932,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640757874,"pid":1932,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640757874,"pid":1932,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640757874,"pid":1932,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640757874,"pid":1932,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640757874,"pid":1932,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640757874,"pid":1932,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640757874,"pid":1932,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640757875,"pid":1932,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640757875,"pid":1932,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729640757875,"pid":1932,"hostname":"castro","msg":"Command handler: undefined"}
+{"level":30,"time":1729640757875,"pid":1932,"hostname":"castro","msg":"Received command from group default: A"}
+{"level":30,"time":1729640794599,"pid":1932,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640794600,"pid":1932,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640794600,"pid":1932,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640794600,"pid":1932,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640794600,"pid":1932,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640794600,"pid":1932,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640794600,"pid":1932,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640794600,"pid":1932,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640794600,"pid":1932,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729640794600,"pid":1932,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729640794600,"pid":1932,"hostname":"castro","msg":"Command handler: undefined"}
+{"level":30,"time":1729640794600,"pid":1932,"hostname":"castro","msg":"Received command from group default: M"}
+{"level":30,"time":1729640867065,"pid":15032,"hostname":"castro","msg":"Loading: 0 - WhatsApp"}
+{"level":30,"time":1729640870272,"pid":15032,"hostname":"castro","msg":"Status find: isLogged"}
+{"level":30,"time":1729640871071,"pid":15032,"hostname":"castro","msg":"Loading: 100 - WhatsApp"}
+{"level":30,"time":1729640871490,"pid":15032,"hostname":"castro","msg":"WhatsApp server started"}
+{"level":30,"time":1729640871757,"pid":15032,"hostname":"castro","msg":"Status find: inChat"}
+{"level":30,"time":1729640995194,"pid":14896,"hostname":"castro","msg":"Loading: 0 - WhatsApp"}
+{"level":30,"time":1729640998530,"pid":14896,"hostname":"castro","msg":"Status find: isLogged"}
+{"level":30,"time":1729640999260,"pid":14896,"hostname":"castro","msg":"Loading: 100 - WhatsApp"}
+{"level":30,"time":1729640999752,"pid":14896,"hostname":"castro","msg":"WhatsApp server started"}
+{"level":30,"time":1729641000153,"pid":14896,"hostname":"castro","msg":"Status find: inChat"}
+{"level":30,"time":1729641106223,"pid":14896,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641106518,"pid":14896,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641106721,"pid":14896,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641106932,"pid":14896,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641107128,"pid":14896,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641107322,"pid":14896,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641107520,"pid":14896,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641107714,"pid":14896,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641107950,"pid":14896,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641107951,"pid":14896,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729641107951,"pid":14896,"hostname":"castro","msg":"Command handler: undefined"}
+{"level":30,"time":1729641107951,"pid":14896,"hostname":"castro","msg":"Received command from group default: Igual a calculadora do ipad"}
+{"level":30,"time":1729641167455,"pid":14804,"hostname":"castro","msg":"Loading: 0 - WhatsApp"}
+{"level":30,"time":1729641170781,"pid":14804,"hostname":"castro","msg":"Status find: isLogged"}
+{"level":30,"time":1729641171530,"pid":14804,"hostname":"castro","msg":"Loading: 100 - WhatsApp"}
+{"level":30,"time":1729641172009,"pid":14804,"hostname":"castro","msg":"WhatsApp server started"}
+{"level":30,"time":1729641172396,"pid":14804,"hostname":"castro","msg":"Status find: inChat"}
+{"level":30,"time":1729641181734,"pid":14804,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641181949,"pid":14804,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641182163,"pid":14804,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641182400,"pid":14804,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641182599,"pid":14804,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641182807,"pid":14804,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641183006,"pid":14804,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641183206,"pid":14804,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641183403,"pid":14804,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641183404,"pid":14804,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729641183404,"pid":14804,"hostname":"castro","msg":"ChatId: 120363026021435434@g.us"}
+{"level":30,"time":1729641183404,"pid":14804,"hostname":"castro","msg":"ChatId Entity: 120363026021435434@g.us"}
+{"level":30,"time":1729641183404,"pid":14804,"hostname":"castro","msg":"Command handler: undefined"}
+{"level":30,"time":1729641183404,"pid":14804,"hostname":"castro","msg":"Received command from group default: Ta pea lancar esse ano"}
+{"level":30,"time":1729641200289,"pid":14804,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641200289,"pid":14804,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641200290,"pid":14804,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641200290,"pid":14804,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641200290,"pid":14804,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641200290,"pid":14804,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641200290,"pid":14804,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641200290,"pid":14804,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641200290,"pid":14804,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641200290,"pid":14804,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729641200290,"pid":14804,"hostname":"castro","msg":"ChatId: 120363026021435434@g.us"}
+{"level":30,"time":1729641200290,"pid":14804,"hostname":"castro","msg":"ChatId Entity: 120363026021435434@g.us"}
+{"level":30,"time":1729641200290,"pid":14804,"hostname":"castro","msg":"Command handler: undefined"}
+{"level":30,"time":1729641200290,"pid":14804,"hostname":"castro","msg":"Received command from group default: Vc tem que baixar da apple store se quiser"}
+{"level":30,"time":1729641206938,"pid":14804,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641206938,"pid":14804,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641206938,"pid":14804,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641206938,"pid":14804,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641206938,"pid":14804,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641206938,"pid":14804,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641206938,"pid":14804,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641206938,"pid":14804,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641206938,"pid":14804,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641206938,"pid":14804,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729641206938,"pid":14804,"hostname":"castro","msg":"ChatId: 120363026021435434@g.us"}
+{"level":30,"time":1729641206938,"pid":14804,"hostname":"castro","msg":"ChatId Entity: 120363026021435434@g.us"}
+{"level":30,"time":1729641206938,"pid":14804,"hostname":"castro","msg":"Command handler: undefined"}
+{"level":30,"time":1729641206938,"pid":14804,"hostname":"castro","msg":"Received command from group default: Mt paia kkkk"}
+{"level":30,"time":1729641451626,"pid":15924,"hostname":"castro","msg":"Loading: 0 - WhatsApp"}
+{"level":30,"time":1729641455024,"pid":15924,"hostname":"castro","msg":"Status find: isLogged"}
+{"level":30,"time":1729641455245,"pid":15924,"hostname":"castro","msg":"Loading: 100 - WhatsApp"}
+{"level":30,"time":1729641456250,"pid":15924,"hostname":"castro","msg":"WhatsApp server started"}
+{"level":30,"time":1729641456510,"pid":15924,"hostname":"castro","msg":"Status find: inChat"}
+{"level":30,"time":1729641463788,"pid":15924,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641464009,"pid":15924,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641464219,"pid":15924,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641464452,"pid":15924,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641464653,"pid":15924,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641464854,"pid":15924,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641465056,"pid":15924,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641465274,"pid":15924,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641465472,"pid":15924,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641465473,"pid":15924,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729641465473,"pid":15924,"hostname":"castro","msg":"ChatId: 5519991187337@c.us"}
+{"level":30,"time":1729641465473,"pid":15924,"hostname":"castro","msg":"Command handler: undefined"}
+{"level":30,"time":1729641465473,"pid":15924,"hostname":"castro","msg":"Received command from group 5519991187337@c.us: !"}
+{"level":30,"time":1729641479432,"pid":15924,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641479432,"pid":15924,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641479432,"pid":15924,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641479432,"pid":15924,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641479432,"pid":15924,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641479432,"pid":15924,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641479432,"pid":15924,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641479432,"pid":15924,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641479432,"pid":15924,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641479432,"pid":15924,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729641479432,"pid":15924,"hostname":"castro","msg":"ChatId: 120363026021435434@g.us"}
+{"level":30,"time":1729641479432,"pid":15924,"hostname":"castro","msg":"Command handler: undefined"}
+{"level":30,"time":1729641479432,"pid":15924,"hostname":"castro","msg":"Received command from group 120363026021435434@g.us: !"}
+{"level":30,"time":1729641499828,"pid":15924,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641499828,"pid":15924,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641499828,"pid":15924,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641499828,"pid":15924,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641499828,"pid":15924,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641499828,"pid":15924,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641499828,"pid":15924,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641499828,"pid":15924,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641499828,"pid":15924,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641499828,"pid":15924,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729641499828,"pid":15924,"hostname":"castro","msg":"ChatId: 120363219389577239@g.us"}
+{"level":30,"time":1729641499828,"pid":15924,"hostname":"castro","msg":"Command handler: [object Object]"}
+{"level":30,"time":1729641499828,"pid":15924,"hostname":"castro","msg":"Received command from group 120363219389577239@g.us: !"}
+{"level":30,"time":1729641499828,"pid":15924,"hostname":"castro","msg":"Handling command !"}
+{"level":30,"time":1729641499828,"pid":15924,"hostname":"castro","msg":"HANDLING COMMAND"}
+{"level":30,"time":1729641499828,"pid":15924,"hostname":"castro","msg":"COMMAND DETECTED"}
+{"level":30,"time":1729641499907,"pid":15924,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641499907,"pid":15924,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641499907,"pid":15924,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641499907,"pid":15924,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641499907,"pid":15924,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641499907,"pid":15924,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641499907,"pid":15924,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641499907,"pid":15924,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641499907,"pid":15924,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641499907,"pid":15924,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729641499907,"pid":15924,"hostname":"castro","msg":"ChatId: 5519991187337@c.us"}
+{"level":30,"time":1729641499907,"pid":15924,"hostname":"castro","msg":"Command handler: undefined"}
+{"level":30,"time":1729641499907,"pid":15924,"hostname":"castro","msg":"Received command from group 5519991187337@c.us: Aqui estão os comandos disponíveis:\n\n!add: Adiciona uma pessoa à mandala. Uso: !add(nome)\n!mandala: Gera uma mandala.\n!get_mandala: Pega uma mandala gerada.\n!mandala_members: Lista os membros da mandala.\n!get_punished: Retorna as pessoas que foram multadas.\n!hello: Responde uma mensagem engraçada.\n!multa: Multa uma pessoa. Uso: !multa(nome,motivo)\n!remover: Remove uma pessoa da mandala. Uso: !remover(nome)\n!caducou: Remove todas as multas aplicadas.\n"}
+{"level":30,"time":1729641512572,"pid":15924,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641512572,"pid":15924,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641512572,"pid":15924,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641512572,"pid":15924,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641512573,"pid":15924,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641512573,"pid":15924,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641512573,"pid":15924,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641512573,"pid":15924,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641512573,"pid":15924,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641512573,"pid":15924,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729641512573,"pid":15924,"hostname":"castro","msg":"ChatId: 120363060441342342@g.us"}
+{"level":30,"time":1729641512573,"pid":15924,"hostname":"castro","msg":"Command handler: undefined"}
+{"level":30,"time":1729641512573,"pid":15924,"hostname":"castro","msg":"Received command from group 120363060441342342@g.us: Ih, não vou mais"}
+{"level":30,"time":1729641672892,"pid":15924,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641672892,"pid":15924,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641672892,"pid":15924,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641672892,"pid":15924,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641672892,"pid":15924,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641672892,"pid":15924,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641672892,"pid":15924,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641672892,"pid":15924,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641672892,"pid":15924,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641672892,"pid":15924,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729641672892,"pid":15924,"hostname":"castro","msg":"ChatId: 120363219389577239@g.us"}
+{"level":30,"time":1729641672892,"pid":15924,"hostname":"castro","msg":"Command handler: [object Object]"}
+{"level":30,"time":1729641672892,"pid":15924,"hostname":"castro","msg":"Received command from group 120363219389577239@g.us: !hello"}
+{"level":30,"time":1729641672892,"pid":15924,"hostname":"castro","msg":"Handling command !hello"}
+{"level":30,"time":1729641672892,"pid":15924,"hostname":"castro","msg":"HANDLING COMMAND"}
+{"level":30,"time":1729641672892,"pid":15924,"hostname":"castro","msg":"COMMAND DETECTED"}
+{"level":30,"time":1729641672940,"pid":15924,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641672940,"pid":15924,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641672940,"pid":15924,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641672940,"pid":15924,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641672940,"pid":15924,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641672940,"pid":15924,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641672940,"pid":15924,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641672940,"pid":15924,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641672940,"pid":15924,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641672940,"pid":15924,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729641672940,"pid":15924,"hostname":"castro","msg":"ChatId: 120363219389577239@g.us"}
+{"level":30,"time":1729641672940,"pid":15924,"hostname":"castro","msg":"Command handler: [object Object]"}
+{"level":30,"time":1729641672940,"pid":15924,"hostname":"castro","msg":"Received command from group 120363219389577239@g.us: Ta querendo pica é?"}
+{"level":30,"time":1729641672940,"pid":15924,"hostname":"castro","msg":"Handling command Ta querendo pica é?"}
+{"level":30,"time":1729641672940,"pid":15924,"hostname":"castro","msg":"HANDLING COMMAND"}
+{"level":30,"time":1729641820988,"pid":15924,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641820988,"pid":15924,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641820988,"pid":15924,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641820988,"pid":15924,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641820988,"pid":15924,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641820988,"pid":15924,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641820988,"pid":15924,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641820988,"pid":15924,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641820988,"pid":15924,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641820988,"pid":15924,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729641820988,"pid":15924,"hostname":"castro","msg":"ChatId: 120363219389577239@g.us"}
+{"level":30,"time":1729641820988,"pid":15924,"hostname":"castro","msg":"Command handler: [object Object]"}
+{"level":30,"time":1729641820988,"pid":15924,"hostname":"castro","msg":"Received command from group 120363219389577239@g.us: To fazendo uma parada pra ela me respond"}
+{"level":30,"time":1729641820988,"pid":15924,"hostname":"castro","msg":"Handling command To fazendo uma parada pra ela me respond"}
+{"level":30,"time":1729641820988,"pid":15924,"hostname":"castro","msg":"HANDLING COMMAND"}
+{"level":30,"time":1729641840615,"pid":15924,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641840615,"pid":15924,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641840615,"pid":15924,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641840615,"pid":15924,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641840615,"pid":15924,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641840615,"pid":15924,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641840615,"pid":15924,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641840615,"pid":15924,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641840615,"pid":15924,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729641840615,"pid":15924,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729641840615,"pid":15924,"hostname":"castro","msg":"ChatId: 120363219389577239@g.us"}
+{"level":30,"time":1729641840615,"pid":15924,"hostname":"castro","msg":"Command handler: [object Object]"}
+{"level":30,"time":1729641840615,"pid":15924,"hostname":"castro","msg":"Received command from group 120363219389577239@g.us: Ja fiz um esquema de, os comandosso funcionarem no grupo"}
+{"level":30,"time":1729641840615,"pid":15924,"hostname":"castro","msg":"Handling command Ja fiz um esquema de, os comandosso funcionarem no grupo"}
+{"level":30,"time":1729641840615,"pid":15924,"hostname":"castro","msg":"HANDLING COMMAND"}
+{"level":30,"time":1729642185663,"pid":15184,"hostname":"castro","msg":"Loading: 0 - WhatsApp"}
+{"level":30,"time":1729642188995,"pid":15184,"hostname":"castro","msg":"Status find: isLogged"}
+{"level":30,"time":1729642189878,"pid":15184,"hostname":"castro","msg":"Loading: 100 - WhatsApp"}
+{"level":30,"time":1729642190204,"pid":15184,"hostname":"castro","msg":"WhatsApp server started"}
+{"level":30,"time":1729642190401,"pid":15184,"hostname":"castro","msg":"Status find: inChat"}
+{"level":30,"time":1729642199209,"pid":15184,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642199424,"pid":15184,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642199628,"pid":15184,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642199870,"pid":15184,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642200069,"pid":15184,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642200268,"pid":15184,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642200471,"pid":15184,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642200670,"pid":15184,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642200868,"pid":15184,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642200869,"pid":15184,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729642200869,"pid":15184,"hostname":"castro","msg":"ChatId: 120363219389577239@g.us"}
+{"level":30,"time":1729642200869,"pid":15184,"hostname":"castro","msg":"Command handler: [object Object]"}
+{"level":30,"time":1729642200869,"pid":15184,"hostname":"castro","msg":"Received command from group 120363219389577239@g.us: !"}
+{"level":30,"time":1729642200869,"pid":15184,"hostname":"castro","msg":"Handling command !"}
+{"level":30,"time":1729642200869,"pid":15184,"hostname":"castro","msg":"HANDLING COMMAND"}
+{"level":30,"time":1729642200981,"pid":15184,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642200981,"pid":15184,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642200982,"pid":15184,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642200982,"pid":15184,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642200982,"pid":15184,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642200982,"pid":15184,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642200982,"pid":15184,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642200982,"pid":15184,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642200982,"pid":15184,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642200982,"pid":15184,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729642200982,"pid":15184,"hostname":"castro","msg":"ChatId: 120363219389577239@g.us"}
+{"level":30,"time":1729642200982,"pid":15184,"hostname":"castro","msg":"Command handler: [object Object]"}
+{"level":30,"time":1729642200982,"pid":15184,"hostname":"castro","msg":"Received command from group 120363219389577239@g.us: Aqui estão os comandos disponíveis:\n\n!add: Adiciona uma pessoa à mandala. Uso: !add(nome)\n!mandala: Gera uma mandala.\n!get_mandala: Pega uma mandala gerada.\n!mandala_members: Lista os membros da mandala.\n!get_punished: Retorna as pessoas que foram multadas.\n!hello: Responde uma mensagem engraçada.\n!multa: Multa uma pessoa. Uso: !multa(nome,motivo)\n!remover: Remove uma pessoa da mandala. Uso: !remover(nome)\n!caducou: Remove todas as multas aplicadas.\n"}
+{"level":30,"time":1729642200982,"pid":15184,"hostname":"castro","msg":"Handling command Aqui estão os comandos disponíveis:\n\n!add: Adiciona uma pessoa à mandala. Uso: !add(nome)\n!mandala: Gera uma mandala.\n!get_mandala: Pega uma mandala gerada.\n!mandala_members: Lista os membros da mandala.\n!get_punished: Retorna as pessoas que foram multadas.\n!hello: Responde uma mensagem engraçada.\n!multa: Multa uma pessoa. Uso: !multa(nome,motivo)\n!remover: Remove uma pessoa da mandala. Uso: !remover(nome)\n!caducou: Remove todas as multas aplicadas.\n"}
+{"level":30,"time":1729642200982,"pid":15184,"hostname":"castro","msg":"HANDLING COMMAND"}
+{"level":30,"time":1729642206416,"pid":15184,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642206416,"pid":15184,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642206416,"pid":15184,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642206416,"pid":15184,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642206416,"pid":15184,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642206416,"pid":15184,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642206416,"pid":15184,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642206416,"pid":15184,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642206416,"pid":15184,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642206416,"pid":15184,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729642206416,"pid":15184,"hostname":"castro","msg":"ChatId: 120363219389577239@g.us"}
+{"level":30,"time":1729642206416,"pid":15184,"hostname":"castro","msg":"Command handler: [object Object]"}
+{"level":30,"time":1729642206416,"pid":15184,"hostname":"castro","msg":"Received command from group 120363219389577239@g.us: Tnks"}
+{"level":30,"time":1729642206416,"pid":15184,"hostname":"castro","msg":"Handling command Tnks"}
+{"level":30,"time":1729642206416,"pid":15184,"hostname":"castro","msg":"HANDLING COMMAND"}
+{"level":30,"time":1729642411894,"pid":15184,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642411894,"pid":15184,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642411894,"pid":15184,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642411894,"pid":15184,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642411894,"pid":15184,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642411894,"pid":15184,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642411894,"pid":15184,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642411894,"pid":15184,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642411894,"pid":15184,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642411894,"pid":15184,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729642411894,"pid":15184,"hostname":"castro","msg":"ChatId: 5519988257238@c.us"}
+{"level":30,"time":1729642411894,"pid":15184,"hostname":"castro","msg":"Command handler: undefined"}
+{"level":30,"time":1729642411894,"pid":15184,"hostname":"castro","msg":"Received command from group 5519988257238@c.us: Sim, importante kkkkk"}
+{"level":30,"time":1729642480724,"pid":15184,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642480724,"pid":15184,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642480724,"pid":15184,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642480724,"pid":15184,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642480724,"pid":15184,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642480724,"pid":15184,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642480724,"pid":15184,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642480724,"pid":15184,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642480724,"pid":15184,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642480724,"pid":15184,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729642480724,"pid":15184,"hostname":"castro","msg":"ChatId: 120363219389577239@g.us"}
+{"level":30,"time":1729642480724,"pid":15184,"hostname":"castro","msg":"Command handler: [object Object]"}
+{"level":30,"time":1729642480724,"pid":15184,"hostname":"castro","msg":"Received command from group 120363219389577239@g.us: !hello"}
+{"level":30,"time":1729642480724,"pid":15184,"hostname":"castro","msg":"Handling command !hello"}
+{"level":30,"time":1729642480724,"pid":15184,"hostname":"castro","msg":"HANDLING COMMAND"}
+{"level":30,"time":1729642480735,"pid":15184,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642480735,"pid":15184,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642480735,"pid":15184,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642480735,"pid":15184,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642480735,"pid":15184,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642480735,"pid":15184,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642480735,"pid":15184,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642480735,"pid":15184,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642480735,"pid":15184,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642480735,"pid":15184,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729642480735,"pid":15184,"hostname":"castro","msg":"ChatId: 120363219389577239@g.us"}
+{"level":30,"time":1729642480735,"pid":15184,"hostname":"castro","msg":"Command handler: [object Object]"}
+{"level":30,"time":1729642480735,"pid":15184,"hostname":"castro","msg":"Received command from group 120363219389577239@g.us: Ta querendo pica é?"}
+{"level":30,"time":1729642480735,"pid":15184,"hostname":"castro","msg":"Handling command Ta querendo pica é?"}
+{"level":30,"time":1729642480735,"pid":15184,"hostname":"castro","msg":"HANDLING COMMAND"}
+{"level":30,"time":1729642486458,"pid":15184,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642486458,"pid":15184,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642486458,"pid":15184,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642486458,"pid":15184,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642486458,"pid":15184,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642486458,"pid":15184,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642486458,"pid":15184,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642486458,"pid":15184,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642486458,"pid":15184,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642486458,"pid":15184,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729642486458,"pid":15184,"hostname":"castro","msg":"ChatId: 120363219389577239@g.us"}
+{"level":30,"time":1729642486458,"pid":15184,"hostname":"castro","msg":"Command handler: [object Object]"}
+{"level":30,"time":1729642486458,"pid":15184,"hostname":"castro","msg":"Received command from group 120363219389577239@g.us: Parece ta funcionando"}
+{"level":30,"time":1729642486458,"pid":15184,"hostname":"castro","msg":"Handling command Parece ta funcionando"}
+{"level":30,"time":1729642486458,"pid":15184,"hostname":"castro","msg":"HANDLING COMMAND"}
+{"level":30,"time":1729642507778,"pid":15184,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642507778,"pid":15184,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642507778,"pid":15184,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642507778,"pid":15184,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642507778,"pid":15184,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642507778,"pid":15184,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642507778,"pid":15184,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642507778,"pid":15184,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642507778,"pid":15184,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642507778,"pid":15184,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729642507778,"pid":15184,"hostname":"castro","msg":"ChatId: 120363219389577239@g.us"}
+{"level":30,"time":1729642507778,"pid":15184,"hostname":"castro","msg":"Command handler: [object Object]"}
+{"level":30,"time":1729642507778,"pid":15184,"hostname":"castro","msg":"Received command from group 120363219389577239@g.us: !get_punished"}
+{"level":30,"time":1729642507778,"pid":15184,"hostname":"castro","msg":"Handling command !get_punished"}
+{"level":30,"time":1729642507778,"pid":15184,"hostname":"castro","msg":"HANDLING COMMAND"}
+{"level":30,"time":1729642507975,"pid":15184,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642507975,"pid":15184,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642507975,"pid":15184,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642507975,"pid":15184,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642507975,"pid":15184,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642507975,"pid":15184,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642507975,"pid":15184,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642507975,"pid":15184,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642507975,"pid":15184,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642507975,"pid":15184,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729642507975,"pid":15184,"hostname":"castro","msg":"ChatId: 120363219389577239@g.us"}
+{"level":30,"time":1729642507975,"pid":15184,"hostname":"castro","msg":"Command handler: [object Object]"}
+{"level":30,"time":1729642507975,"pid":15184,"hostname":"castro","msg":"Received command from group 120363219389577239@g.us: *Cabeca*: 0 pontos\n*Cafe*: 0 pontos\n*Bordel*: 0 pontos\n*Chris*: 0 pontos\n*Greg*: 0 pontos\n*Dylan*: 0 pontos\n*Castro*: 1 pontos\n*Pix*: 0 pontos\n*James*: 0 pontos\n*Penado*: 0 pontos\n*Moises*: 0 pontos\n*Xupeta*: 0 pontos\n*Grecia*: 0 pontos"}
+{"level":30,"time":1729642507975,"pid":15184,"hostname":"castro","msg":"Handling command *Cabeca*: 0 pontos\n*Cafe*: 0 pontos\n*Bordel*: 0 pontos\n*Chris*: 0 pontos\n*Greg*: 0 pontos\n*Dylan*: 0 pontos\n*Castro*: 1 pontos\n*Pix*: 0 pontos\n*James*: 0 pontos\n*Penado*: 0 pontos\n*Moises*: 0 pontos\n*Xupeta*: 0 pontos\n*Grecia*: 0 pontos"}
+{"level":30,"time":1729642507975,"pid":15184,"hostname":"castro","msg":"HANDLING COMMAND"}
+{"level":30,"time":1729642526801,"pid":15184,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642526801,"pid":15184,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642526801,"pid":15184,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642526801,"pid":15184,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642526801,"pid":15184,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642526801,"pid":15184,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642526801,"pid":15184,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642526801,"pid":15184,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642526801,"pid":15184,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642526801,"pid":15184,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729642526801,"pid":15184,"hostname":"castro","msg":"ChatId: 120363219389577239@g.us"}
+{"level":30,"time":1729642526801,"pid":15184,"hostname":"castro","msg":"Command handler: [object Object]"}
+{"level":30,"time":1729642526801,"pid":15184,"hostname":"castro","msg":"Received command from group 120363219389577239@g.us: TRAÍDO PELO PRÓPRIO BOT, A IRONIA"}
+{"level":30,"time":1729642526801,"pid":15184,"hostname":"castro","msg":"Handling command TRAÍDO PELO PRÓPRIO BOT, A IRONIA"}
+{"level":30,"time":1729642526801,"pid":15184,"hostname":"castro","msg":"HANDLING COMMAND"}
+{"level":30,"time":1729642712088,"pid":15184,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642712088,"pid":15184,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642712088,"pid":15184,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642712088,"pid":15184,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642712088,"pid":15184,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642712088,"pid":15184,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642712088,"pid":15184,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642712088,"pid":15184,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642712088,"pid":15184,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642712088,"pid":15184,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729642712088,"pid":15184,"hostname":"castro","msg":"ChatId: 120363219389577239@g.us"}
+{"level":30,"time":1729642712088,"pid":15184,"hostname":"castro","msg":"Command handler: [object Object]"}
+{"level":30,"time":1729642712088,"pid":15184,"hostname":"castro","msg":"Received command from group 120363219389577239@g.us: Osh? Kkkk"}
+{"level":30,"time":1729642712088,"pid":15184,"hostname":"castro","msg":"Handling command Osh? Kkkk"}
+{"level":30,"time":1729642712088,"pid":15184,"hostname":"castro","msg":"HANDLING COMMAND"}
+{"level":30,"time":1729642719914,"pid":15184,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642719914,"pid":15184,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642719914,"pid":15184,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642719914,"pid":15184,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642719914,"pid":15184,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642719914,"pid":15184,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642719914,"pid":15184,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642719914,"pid":15184,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642719914,"pid":15184,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642719914,"pid":15184,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729642719914,"pid":15184,"hostname":"castro","msg":"ChatId: 120363219389577239@g.us"}
+{"level":30,"time":1729642719914,"pid":15184,"hostname":"castro","msg":"Command handler: [object Object]"}
+{"level":30,"time":1729642719914,"pid":15184,"hostname":"castro","msg":"Received command from group 120363219389577239@g.us: !caducou"}
+{"level":30,"time":1729642719914,"pid":15184,"hostname":"castro","msg":"Handling command !caducou"}
+{"level":30,"time":1729642719914,"pid":15184,"hostname":"castro","msg":"HANDLING COMMAND"}
+{"level":30,"time":1729642719924,"pid":15184,"hostname":"castro","msg":"Registrando comando AddPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642719924,"pid":15184,"hostname":"castro","msg":"Registrando comando GenerateMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642719924,"pid":15184,"hostname":"castro","msg":"Registrando comando GetMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642719924,"pid":15184,"hostname":"castro","msg":"Registrando comando GetMandalaMembersCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642719924,"pid":15184,"hostname":"castro","msg":"Registrando comando GetPeoplePunishdCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642719924,"pid":15184,"hostname":"castro","msg":"Registrando comando HelloCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642719924,"pid":15184,"hostname":"castro","msg":"Registrando comando PunishPersonCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642719924,"pid":15184,"hostname":"castro","msg":"Registrando comando RemoverPersonMandalaCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642719924,"pid":15184,"hostname":"castro","msg":"Registrando comando RemoveAllPunishCommand para grupo 120363219389577239@g.us"}
+{"level":30,"time":1729642719924,"pid":15184,"hostname":"castro","msg":"PROCESSING MESSAGE"}
+{"level":30,"time":1729642719924,"pid":15184,"hostname":"castro","msg":"ChatId: 120363219389577239@g.us"}
+{"level":30,"time":1729642719924,"pid":15184,"hostname":"castro","msg":"Command handler: [object Object]"}
+{"level":30,"time":1729642719924,"pid":15184,"hostname":"castro","msg":"Received command from group 120363219389577239@g.us: Caducou geral"}
+{"level":30,"time":1729642719924,"pid":15184,"hostname":"castro","msg":"Handling command Caducou geral"}
+{"level":30,"time":1729642719924,"pid":15184,"hostname":"castro","msg":"HANDLING COMMAND"}

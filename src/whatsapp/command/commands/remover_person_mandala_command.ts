@@ -2,8 +2,9 @@ import { Message, Whatsapp } from "@wppconnect-team/wppconnect";
 import { Mandala } from "../../../mandala/mandala";
 import { ICommand } from "../interface_command";
 import { Command } from "../command_decorator";
+import { WhatsGroups } from "../command_handler";
 
-@Command()
+@Command({ group: WhatsGroups.PULERO, requires: ["mandala"] })
 export class RemoverPersonMandalaCommand implements ICommand {
     command = "!remover";
     description = "Remove uma pessoa da mandala. Uso: !remover(nome)";
@@ -11,7 +12,7 @@ export class RemoverPersonMandalaCommand implements ICommand {
   
     async execute(client: Whatsapp, message: Message, args?: string): Promise<void> {
       if (!args) {
-        await client.sendText(message.from, "Você precisa informar o nome da pessoa que deseja remover.");
+        await client.sendText(WhatsGroups.PULERO, "Você precisa informar o nome da pessoa que deseja remover.");
         return;
       }
   
@@ -19,9 +20,9 @@ export class RemoverPersonMandalaCommand implements ICommand {
       const removed = this.mandala.removePerson(person);
   
       if (removed) {
-        await client.sendText(message.from, `Pessoa ${person} removida da mandala.`);
+        await client.sendText(WhatsGroups.PULERO, `Pessoa ${person} removida da mandala.`);
       } else {
-        await client.sendText(message.from, `Pessoa ${person} não encontrada na mandala.`);
+        await client.sendText(WhatsGroups.PULERO, `Pessoa ${person} não encontrada na mandala.`);
       }
     }
   }

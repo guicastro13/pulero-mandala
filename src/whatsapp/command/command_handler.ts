@@ -1,20 +1,27 @@
 import { Message, Whatsapp } from "@wppconnect-team/wppconnect";
 import { ICommand } from "./interface_command";
+import { ILogger } from "../../helpers/logger";
+
+export enum WhatsGroups {
+  PULERO = "120363219389577239@g.us"
+}
 
 export class CommandHandler {
     private commands: Map<string, ICommand> = new Map();
-  
+    constructor(private logger: ILogger ){}
     registerCommand(command: ICommand) {
       this.commands.set(command.command, command);
     }
   
     async handleCommand(client: Whatsapp, message: Message) {
+      this.logger.info("HANDLING COMMAND");
       const commandText = message.body!;
       const multaRegex = /^!multa\(\s*([^,\s][^,]*)\s*,\s*([^,\s][^)]*)\s*\)$/;
       const addRegex = /^!add\((.+)\)$/;
       const removeRegex = /^!remover\((.+)\)$/;
   
       if (commandText.startsWith("!")) {
+        console.log("COMMAND DETECTED");
         if (addRegex.test(commandText)) {
           const args = commandText.match(addRegex)?.[1];
           const cmd = this.commands.get("!add");
@@ -25,7 +32,6 @@ export class CommandHandler {
         } else if (multaRegex.test(commandText)) {
           const args = commandText.match(multaRegex)?.[1];
           const cmd = this.commands.get("!multa");
-          console.log("AQUI")
           if (cmd) {
             await cmd.execute(client, message, args);
           }
@@ -63,7 +69,7 @@ export class CommandHandler {
           helpMessage += `${cmd.command}: ${cmd.description}\n`;
         });
     
-        await client.sendText(message.from, helpMessage);
+        await client.sendText(WhatsGroups.PULERO, helpMessage);
     }
   }
   

@@ -2,8 +2,9 @@ import { Message, Whatsapp } from "@wppconnect-team/wppconnect";
 import { PunishSystem } from "../../../punish_points/punish_points";
 import { ICommand } from "../interface_command";
 import { Command } from "../command_decorator";
+import { WhatsGroups } from "../command_handler";
 
-@Command()
+@Command({ group: WhatsGroups.PULERO ,requires: ["punisher"] })
 export class RemoveAllPunishCommand implements ICommand {
     command = "!caducou";
     description = "Remove todas as multas aplicadas.";
@@ -11,6 +12,6 @@ export class RemoveAllPunishCommand implements ICommand {
 
     async execute(client: Whatsapp,message: Message): Promise<void> {
         this.punish_system.clearAllPoints()
-        await client.sendText(message.from, `Caducou geral`);
+        await client.sendText(WhatsGroups.PULERO, `Caducou geral`);
     }
 }
