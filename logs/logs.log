@@ -1251,3 +1251,24 @@
 {"level":30,"time":1729642719924,"pid":15184,"hostname":"castro","msg":"Received command from group 120363219389577239@g.us: Caducou geral"}
 {"level":30,"time":1729642719924,"pid":15184,"hostname":"castro","msg":"Handling command Caducou geral"}
 {"level":30,"time":1729642719924,"pid":15184,"hostname":"castro","msg":"HANDLING COMMAND"}
+{"level":30,"time":1729730837231,"pid":18824,"hostname":"castro","msg":"API server started on port 3000"}
+{"level":30,"time":1729730871654,"pid":18852,"hostname":"castro","msg":"Route GET /health registered"}
+{"level":30,"time":1729730871658,"pid":18852,"hostname":"castro","msg":"API server started on port 3000"}
+{"level":30,"time":1729731250810,"pid":18004,"hostname":"castro","msg":"Route GET /health registered"}
+{"level":30,"time":1729731250816,"pid":18004,"hostname":"castro","msg":"API server started on port 3000"}
+{"level":30,"time":1729731435301,"pid":17420,"hostname":"castro","msg":"API server started on port 3000"}
+{"level":30,"time":1729731468940,"pid":18364,"hostname":"castro","msg":"API server started on port 3000"}
+{"level":30,"time":1729731834842,"pid":18268,"hostname":"castro","msg":"API server started on port 3000"}
+{"level":30,"time":1729731850834,"pid":17028,"hostname":"castro","msg":"API server started on port 3000"}
+{"level":30,"time":1729731919584,"pid":19364,"hostname":"castro","msg":"API server started on port 3000"}
+{"level":30,"time":1729731945765,"pid":19192,"hostname":"castro","msg":"API server started on port 3000"}
+{"level":30,"time":1729731984016,"pid":18524,"hostname":"castro","msg":"Route added: GET /health"}
+{"level":30,"time":1729731984022,"pid":18524,"hostname":"castro","msg":"API server started on port 3000"}
+{"level":30,"time":1729732021513,"pid":17412,"hostname":"castro","msg":"ROUTE GET: /health added"}
+{"level":30,"time":1729732021517,"pid":17412,"hostname":"castro","msg":"API server started on port 3000"}
+{"level":30,"time":1729732044812,"pid":16992,"hostname":"castro","msg":"ROUTE READYGET:/health"}
+{"level":30,"time":1729732044819,"pid":16992,"hostname":"castro","msg":"API server started on port 3000"}
+{"level":30,"time":1729732079694,"pid":18944,"hostname":"castro","msg":"ROUTE READY GET:/health"}
+{"level":30,"time":1729732079698,"pid":18944,"hostname":"castro","msg":"SERVER LISTENING ON:3000"}
+{"level":30,"time":1729732106527,"pid":17420,"hostname":"castro","msg":"ROUTE READY [GET] [/health]"}
+{"level":30,"time":1729732106531,"pid":17420,"hostname":"castro","msg":"SERVER LISTENING ON:3000"}
