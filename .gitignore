@@ -3,3 +3,6 @@
 /.vs
 /tokens
 /src/mandala/Tasks/*
+/logs
+.husky/
+/data

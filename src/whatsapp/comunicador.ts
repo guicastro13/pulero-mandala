@@ -8,6 +8,7 @@ import "reflect-metadata";
 import * as fs from "fs";
 import * as path from "path";
 
+
 export class Communicator {
   private client: Whatsapp;
   private mandala: Mandala;
@@ -29,7 +30,7 @@ export class Communicator {
     const commandsPath = path.resolve(__dirname, "./command/commands");
     fs.readdirSync(commandsPath).forEach((file) => {
         if (file.endsWith(".ts") || file.endsWith(".js")) {
-            const commandModule = require(path.join(commandsPath, file));
+          const commandModule = import(path.join(commandsPath, file));
             Object.values(commandModule).forEach((CommandClass: any) => {
                 if (Reflect.getMetadata("isCommand", CommandClass)) {
                     const dependencies: string[] = Reflect.getMetadata("dependencies", CommandClass) || [];
