@@ -5,6 +5,7 @@ import { CreateOptions } from '@wppconnect-team/wppconnect';
 import { ApiServer } from './api/server';
 import { HealthCheck } from './api/controller/heath_controller';
 import { SampleController } from './api/controller/sample.controller';
+import 'reflect-metadata';
 
 dotenv.config();
 

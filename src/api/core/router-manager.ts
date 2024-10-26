@@ -1,7 +1,7 @@
-import express, { Request as ExpressRequest, Response as ExpressResponse, NextFunction as ExpressNextFunction, RequestHandler, Router } from 'express';
-import { HttpMethod } from '../types/api.types';
-import { ILogger } from '../../helpers/logger';
-import { RouteHandlerHelper } from './route-handler-helper';
+import express, { RequestHandler, Router } from "express";
+import { ILogger } from "../../helpers/logger";
+import { HttpMethod, ParameterHandler, RouteDefinition, RouteHandler } from "../types/api.types";
+import { RouteHandlerHelper } from "./route-handler-helper";
 
 export class RouterManager {
     private router: Router;
@@ -13,15 +13,14 @@ export class RouterManager {
     registerRoute(
       method: HttpMethod, 
       path: string, 
-      handler: (req: ExpressRequest, res: ExpressResponse, next: ExpressNextFunction) => Promise<void>, 
-      parameterHandlers?: any[]
+      handler: RouteHandler, 
+      parameterHandlers?: ParameterHandler[]
     ) {
-      const wrappedHandler: RequestHandler = async (req: ExpressRequest, res: ExpressResponse, next: ExpressNextFunction) => {
+      const wrappedHandler: RequestHandler = async (req, res, next) => {
         try {
-          const args = RouteHandlerHelper.extractParameters(req, res, next, parameterHandlers);
-          const result = await handler(req, res, next);
-          res.locals.result = result;
-          next();
+          const args = RouteHandlerHelper.extractParameters(req, res, next, parameterHandlers || []);
+          const result = await handler(...args);
+          res.status(result?.statusCode || 200).json(result);
         } catch (error) {
           next(error);
         }
@@ -49,4 +48,4 @@ export class RouterManager {
     getRouter() {
       return this.router;
     }
-  }
+}

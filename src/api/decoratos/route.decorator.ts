@@ -1,4 +1,4 @@
-import { HttpMethod, RouteDefinition } from '../types/api.types';
+import { HttpMethod, ParameterHandler, RouteDefinition } from "../types/api.types";
 import 'reflect-metadata';
 
 export class RouteBuilder {
@@ -7,13 +7,13 @@ export class RouteBuilder {
       if (!target.constructor.routes) {
         target.constructor.routes = [] as RouteDefinition[];
       }
+      const parameterHandlers: ParameterHandler[] = Reflect.getOwnMetadata('route:params', target, propertyKey) || [];
       target.constructor.routes.push({
         method,
         path,
         handlerName: propertyKey.toString(),
-        parameterHandlers: Reflect.getOwnMetadata('route:params', target, propertyKey) || [],
+        parameterHandlers,
       });
-      console.log(`Route registered: [${method.toUpperCase()}] ${path} -> ${propertyKey.toString()}`);
     };
   }
 
