@@ -1,6 +1,6 @@
 import { ILogger } from "../helpers/logger";
-import express, { NextFunction, Request, Response } from 'express';
-import { Controller, ParameterHandler, RouteDefinition } from "./types/api.types";
+import express from 'express';
+import { Controller } from "./types/api.types";
 import 'reflect-metadata';
 import { RouterManager } from "./core/router-manager";
 
