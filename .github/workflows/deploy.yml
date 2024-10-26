@@ -20,13 +20,28 @@ jobs:
         username: root
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         script: |
-          cd /pulero-mandala
+          # Verifique se o diretório /pulero-mandala existe antes de tentar acessar
+          if [ -d "/root/pulero-mandala" ]; then
+            cd /root/pulero-mandala
+          else
+            echo "Diretório /root/pulero-mandala não encontrado. Verifique o caminho."
+            exit 1
+          fi
 
-          # Cria um backup dos dados antes de atualizar
-          tar -czf backup-$(date +%F).tar.gz data tokens
+          # Cria um backup dos dados antes de atualizar, somente se os diretórios existirem
+          if [ -d "data" ] && [ -d "tokens" ]; then
+            tar -czf backup-$(date +%F).tar.gz data tokens
+          else
+            echo "Diretórios 'data' ou 'tokens' não encontrados. Pulando backup."
+          fi
 
-          # Puxa as últimas mudanças do repositório
-          git pull origin main
+          # Puxa as últimas mudanças do repositório, se estiver no repositório Git correto
+          if [ -d ".git" ]; then
+            git pull origin main
+          else
+            echo "Diretório atual não é um repositório Git. Verifique a configuração."
+            exit 1
+          fi
 
           # Para e remove qualquer container com o nome 'pb', se existir
           if docker ps -a --filter "name=pb" --format '{{.ID}}' | grep -q .; then
@@ -34,11 +49,17 @@ jobs:
             docker rm pb
           fi
 
-          # Remove imagens antigas da 'pb' para evitar conflitos
-          docker rmi pb || true
+          # Remove imagens antigas da 'pb' para evitar conflitos, forçando a remoção se necessário
+          docker ps -a --filter "ancestor=pb" --format "{{.ID}}" | xargs -r docker rm -f
+          docker rmi -f pb || true
 
           # Cria uma nova imagem com uma tag única para evitar problemas de cache
-          docker build -t pb:$(git rev-parse --short HEAD) .
+          GIT_COMMIT=$(git rev-parse --short HEAD)
+          if [ -z "$GIT_COMMIT" ]; then
+            echo "Falha ao gerar o hash do commit. Verifique se o repositório Git está configurado corretamente."
+            exit 1
+          fi
+          docker build -t pb:$GIT_COMMIT .
 
           # Executa o novo container
-          docker run -d --name pb pb:$(git rev-parse --short HEAD)
+          docker run -d --name pb pb:$GIT_COMMIT
