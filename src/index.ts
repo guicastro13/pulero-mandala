@@ -12,7 +12,7 @@ dotenv.config();
 const config: CreateOptions  = {
     session: 'session',
     headless: 'shell',
-    logQR: false,
+    logQR: true,
     updatesLog: false,
     // phoneNumber: process.env.PHONE_NUMBER,
     puppeteerOptions: {
