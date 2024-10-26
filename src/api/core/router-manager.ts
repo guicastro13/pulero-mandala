@@ -1,7 +1,6 @@
-import express, { RequestHandler, Router } from "express";
+import express, { NextFunction, Request, Response, Router } from "express";
 import { ILogger } from "../../helpers/logger";
-import { HttpMethod, ParameterHandler, RouteDefinition, RouteHandler } from "../types/api.types";
-import { RouteHandlerHelper } from "./route-handler-helper";
+import { Controller, ParameterHandler, RouteDefinition } from "../types/api.types";
 
 export class RouterManager {
     private router: Router;
@@ -10,41 +9,45 @@ export class RouterManager {
       this.router = express.Router();
     }
   
-    registerRoute(
-      method: HttpMethod, 
-      path: string, 
-      handler: RouteHandler, 
-      parameterHandlers?: ParameterHandler[]
-    ) {
-      const wrappedHandler: RequestHandler = async (req, res, next) => {
-        try {
-          const args = RouteHandlerHelper.extractParameters(req, res, next, parameterHandlers || []);
-          const result = await handler(...args);
-          res.status(result?.statusCode || 200).json(result);
-        } catch (error) {
-          next(error);
-        }
-      };
+    registerControllers(controllers: Controller[]) {
+      controllers.forEach(controller => {
+        const instance = new controller();
+        const prototype = Object.getPrototypeOf(instance);
+        const routes: RouteDefinition[] = controller.routes || [];
   
-    
-        switch (method) {
-          case HttpMethod.GET:
-            this.router.get(path, wrappedHandler);
-            break;
-          case HttpMethod.POST:
-            this.router.post(path, wrappedHandler);
-            break;
-          case HttpMethod.PUT:
-            this.router.put(path, wrappedHandler);
-            break;
-          case HttpMethod.DELETE:
-            this.router.delete(path, wrappedHandler);
-            break;
-          default:
-            throw new Error(`Unsupported method: ${method}`);
-        }
-      }
+        routes.forEach((route: RouteDefinition) => {
+          const { method, path, handlerName, parameterHandlers = [] } = route;
   
+          this.router[method](path, async (req: Request, res: Response, next: NextFunction) => {
+            try {
+              const args = this.extractParameters(req, parameterHandlers);
+              const result = await instance[handlerName](...args);
+              res.status(result.statusCode).json(result);
+            } catch (error) {
+              next(error);
+            }
+          });
+  
+          this.logger.info(`ROUTE READY: [${method.toUpperCase()}] ${path}`);
+        });
+      });
+    }
+
+    private extractParameters(req: Request, handlers: ParameterHandler[] = []) {
+      return handlers
+        .sort((a, b) => a.index - b.index)
+        .map(handler => {
+          switch (handler.type) {
+            case 'param':
+              return handler.key ? req.params[handler.key] : undefined;
+            case 'body':
+              return req.body;
+            case 'header':
+              return handler.key ? req.headers[handler.key.toLowerCase()] : undefined;
+          }
+        });
+    }
+
     getRouter() {
       return this.router;
     }
