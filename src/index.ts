@@ -4,6 +4,7 @@ import { Logger } from './helpers/logger';
 import { CreateOptions } from '@wppconnect-team/wppconnect';
 import { ApiServer } from './api/server';
 import { HealthCheck } from './api/controller/heath_controller';
+import { SampleController } from './api/controller/sample.controller';
 
 dotenv.config();
 
@@ -24,5 +25,5 @@ const api_server = new ApiServer(logger, 3000);
 
 // whatsapp.start(config);
 
-api_server.registerControllers([HealthCheck]);
+api_server.registerControllers([HealthCheck, SampleController]);
 api_server.start();

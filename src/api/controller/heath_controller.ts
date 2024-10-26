@@ -1,9 +1,8 @@
-import { Get } from "../route_decorator";
-import { Request, Response } from 'express';
+import { RouteBuilder } from "../decoratos/route.decorator";
 
 export class HealthCheck {
-    @Get('/health')
-    check(req: Request, res: Response) {
-        res.send("OK");
+    @RouteBuilder.Get('/health')
+    check() {
+      return { statusCode: 200, message: "Service is healthy" };
     }
 }

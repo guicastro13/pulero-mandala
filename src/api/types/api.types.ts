@@ -19,6 +19,13 @@ export interface Controller {
   }[];
 }
 
+export interface HandlerResponse<T = any> {
+  statusCode?: number;
+  success?: boolean;
+  data?: T;
+  message?: string;
+}
+
 export enum HttpMethod {
   GET = 'get',
   POST = 'post',
@@ -26,11 +33,8 @@ export enum HttpMethod {
   DELETE = 'delete',
 }
 
-export interface ApiResponse<T = any> {
-  statusCode: number;
-  success: boolean;
-  data?: T;
-  message?: string;
+export function isHandlerResponse(obj: any): obj is HandlerResponse {
+  return obj && typeof obj === 'object' && 'statusCode' in obj;
 }
 
 export interface RouteOptions {
