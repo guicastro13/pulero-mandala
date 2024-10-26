@@ -9,6 +9,6 @@ export class HelloCommand implements ICommand {
     description = "Responde uma mensagem engraçada.";
   
     async execute(client: Whatsapp): Promise<void> {
-      await client.sendText(WhatsGroups.PULERO, "Ta querendo pica é?");
+      await client.sendText(WhatsGroups.PULERO, "Ta querendo pica é?!");
     }
   }

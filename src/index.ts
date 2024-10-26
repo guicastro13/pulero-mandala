@@ -9,22 +9,22 @@ import 'reflect-metadata';
 
 dotenv.config();
 
-// const config: CreateOptions  = {
-//     session: 'session',
-//     headless: 'shell',
-//     logQR: false,
-//     updatesLog: false,
-//     // phoneNumber: process.env.PHONE_NUMBER,
-//     puppeteerOptions: {
-//         args: ['--no-sandbox', '--disable-setuid-sandbox']
-//     },
-// };
+const config: CreateOptions  = {
+    session: 'session',
+    headless: 'shell',
+    logQR: false,
+    updatesLog: false,
+    phoneNumber: process.env.PHONE_NUMBER,
+    puppeteerOptions: {
+        args: ['--no-sandbox', '--disable-setuid-sandbox']
+    },
+};
 
 const logger = new Logger()
 const api_server = new ApiServer(logger, 3000);
-// const whatsapp = new WhatsServer(logger);
+const whatsapp = new WhatsServer(logger);
 
-// whatsapp.start(config);
+whatsapp.start(config);
 
 api_server.registerControllers([HealthCheck, SampleController]);
 api_server.start();
