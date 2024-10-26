@@ -10,7 +10,7 @@ export class RemoveAllPunishCommand implements ICommand {
     description = "Remove todas as multas aplicadas.";
     constructor(private punish_system: PunishSystem) {}
 
-    async execute(client: Whatsapp,message: Message): Promise<void> {
+    async execute(client: Whatsapp): Promise<void> {
         this.punish_system.clearAllPoints()
         await client.sendText(WhatsGroups.PULERO, `Caducou geral`);
     }
