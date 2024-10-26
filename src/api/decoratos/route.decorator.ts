@@ -1,7 +1,7 @@
 import { HttpMethod, ParameterHandler, RouteDefinition } from "../types/api.types";
 import 'reflect-metadata';
 
-export class RouteBuilder {
+class RouteBuilder {
   static addRoute(method: HttpMethod, path: string) {
     return function (target: any, propertyKey: string | symbol) {
       if (!target.constructor.routes) {
@@ -53,3 +53,5 @@ export class RouteBuilder {
     return RouteBuilder.addParam('header', headerName);
   }
 }
+
+export const { Get, Post, Put, Delete, Param, Body, Header } = RouteBuilder;
