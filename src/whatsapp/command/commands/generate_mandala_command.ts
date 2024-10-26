@@ -12,7 +12,7 @@ export class GenerateMandalaCommand implements ICommand {
     constructor(private mandala: Mandala) {
     }
   
-    async execute(client: Whatsapp,message: Message,): Promise<void> {
+    async execute(client: Whatsapp): Promise<void> {
       await this.mandala.generateMandala();
       await client.sendText(WhatsGroups.PULERO, "Mandala gerada");
     }

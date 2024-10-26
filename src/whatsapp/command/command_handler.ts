@@ -49,7 +49,7 @@ export class CommandHandler {
         if (cmd) {
           await cmd.execute(client, message);
         } else {
-            await this.sendHelpMessage(client, message);
+            await this.sendHelpMessage(client);
         }
       }
     }
@@ -61,7 +61,7 @@ export class CommandHandler {
         }));
     }
     
-    private async sendHelpMessage(client: Whatsapp, message: Message) {
+    private async sendHelpMessage(client: Whatsapp) {
         const commands = this.listCommands();
         let helpMessage = "Aqui estão os comandos disponíveis:\n\n";
     

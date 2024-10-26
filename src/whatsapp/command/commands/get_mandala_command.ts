@@ -10,7 +10,7 @@ export class GetMandalaCommand {
 
     constructor(private mandala: Mandala) {}
 
-    async execute(client: Whatsapp, message: Message): Promise<void> {
+    async execute(client: Whatsapp): Promise<void> {
         await client.sendText(WhatsGroups.PULERO, "Pegando sua mandala...");
         const mandala = await this.mandala.getMandala();
         if (!mandala) {

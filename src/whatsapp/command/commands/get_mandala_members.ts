@@ -11,7 +11,7 @@ export class GetMandalaMembersCommand implements ICommand {
   
     constructor(private mandala: Mandala) {}
 
-    async execute(client: Whatsapp, message: Message): Promise<void> {
+    async execute(client: Whatsapp): Promise<void> {
         const members = this.mandala.getMembers();
         if (!members) {
             await client.sendText(WhatsGroups.PULERO, "Lista de membros não encontrada.");

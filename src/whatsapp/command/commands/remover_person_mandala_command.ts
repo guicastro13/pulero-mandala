@@ -10,7 +10,7 @@ export class RemoverPersonMandalaCommand implements ICommand {
     description = "Remove uma pessoa da mandala. Uso: !remover(nome)";
     constructor(private mandala: Mandala) {}
   
-    async execute(client: Whatsapp, message: Message, args?: string): Promise<void> {
+    async execute(client: Whatsapp, _message: Message, args?: string): Promise<void> {
       if (!args) {
         await client.sendText(WhatsGroups.PULERO, "Você precisa informar o nome da pessoa que deseja remover.");
         return;

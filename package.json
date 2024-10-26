@@ -16,7 +16,10 @@
   "devDependencies": {
     "@types/express": "^5.0.0",
     "@types/node-cron": "^3.0.11",
-    "@types/qrcode": "^1.5.5"
+    "@types/qrcode": "^1.5.5",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
+    "prettier": "3.3.3"
   },
   "name": "pulero-mandala",
   "version": "1.0.0",
@@ -24,10 +27,16 @@
   "scripts": {
     "dev": "ts-node src/index.ts | npx pino-pretty",
     "build": "tsc",
-    "start": "node dist/index.js | npx pino-pretty"
+    "start": "node dist/index.js | npx pino-pretty",
+    "check-prettier": "npx prettier . --check",
+    "prepare": "husky install",
+    "format": "prettier --write ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
 }
