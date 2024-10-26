@@ -1,0 +1,35 @@
+name: Simple Deploy Pulero Bot
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Checkout do repositório (necessário para GitHub Actions rodar)
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    # Deploy via SSH no servidor
+    - name: Deploy to Server
+      uses: appleboy/ssh-action@v0.1.5
+      with:
+        host: 185.139.1.231
+        username: root
+        key: ${{ secrets.SSH_PRIVATE_KEY }}
+        script: |
+          cd /pulero-mandala
+
+          tar -czf backup-$(date +%F).tar.gz data tokens
+
+          git pull origin main
+
+          docker stop pb || true
+          docker rm pb || true
+
+          docker build -t pb .
+          docker run -d --name pb pb
