@@ -10,7 +10,9 @@
     "qrcode": "^1.5.4",
     "qrcode-terminal": "^0.12.0",
     "reflect-metadata": "^0.2.2",
+    "sqlite3": "^5.1.7",
     "ts-node": "^10.9.2",
+    "typeorm": "^0.3.20",
     "typescript": "^5.6.2"
   },
   "devDependencies": {
@@ -30,7 +32,8 @@
     "start": "node dist/index.js | npx pino-pretty",
     "check-prettier": "npx prettier . --check",
     "prepare": "husky install",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "seed": "ts-node src/database/seed/first.ts"
   },
   "keywords": [],
   "author": "",
