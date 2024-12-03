@@ -1,10 +1,7 @@
 import { Message, Whatsapp } from "@wppconnect-team/wppconnect";
 import { ICommand } from "./interface_command";
 import { ILogger } from "../../helpers/logger";
-
-export enum WhatsGroups {
-  PULERO = "120363219389577239@g.us"
-}
+import { WhatsGroups } from "../core/groups";
 
 export class CommandHandler {
     private commands: Map<string, ICommand> = new Map();

@@ -6,29 +6,28 @@ import { ApiServer } from './api/server';
 import { HealthCheck } from './api/controller/heath_controller';
 import { SampleController } from './api/controller/sample.controller';
 import 'reflect-metadata';
-import { AppDataSource } from './database/data-source';
-import { PersonRepository } from './database/repository/person_repository';
-import { Person } from './database/entity/person';
-import { Place } from './database/entity/place';
+import { WhatsAppServer } from './whatsapp/core/server';
 
 dotenv.config();
 
-// const config: CreateOptions  = {
-//     session: 'session',
-//     headless: 'shell',
-//     logQR: true,
-//     updatesLog: false,
-//     // phoneNumber: process.env.PHONE_NUMBER,
-//     puppeteerOptions: {
-//         args: ['--no-sandbox', '--disable-setuid-sandbox']
-//     },
-// };
+const config: CreateOptions  = {
+    session: 'session',
+    headless: 'shell',
+    logQR: true,
+    updatesLog: false,
+    // phoneNumber: process.env.PHONE_NUMBER,
+    puppeteerOptions: {
+        args: ['--no-sandbox', '--disable-setuid-sandbox']
+    },
+};
 
-// const logger = new Logger()
+const logger = new Logger()
 // const api_server = new ApiServer(logger, 3000);
 // const whatsapp = new WhatsServer(logger);
+const whatsapp = new WhatsAppServer();
 
-// whatsapp.start(config);
+whatsapp.start(config);
+
 
 // api_server.registerControllers([HealthCheck, SampleController]);
 // api_server.start();

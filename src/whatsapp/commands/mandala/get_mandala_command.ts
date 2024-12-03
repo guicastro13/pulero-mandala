@@ -1,12 +1,11 @@
-import { Message, Whatsapp } from "@wppconnect-team/wppconnect";
+import { Whatsapp } from "@wppconnect-team/wppconnect";
 import { Mandala } from "../../../mandala/mandala";
-import { Command } from "../command_decorator";
-import { WhatsGroups } from "../command_handler";
+import { WhatsGroups } from "../../core/groups";
 
-@Command({ group: WhatsGroups.PULERO, requires: ["mandala"] })
 export class GetMandalaCommand {
-    command = "!get_mandala";
+    command = "get_mandala";
     description = "Pega uma mandala gerada.";
+    groups = [WhatsGroups.PULERO];
 
     constructor(private mandala: Mandala) {}
 

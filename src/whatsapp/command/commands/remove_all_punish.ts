@@ -2,7 +2,7 @@ import { Message, Whatsapp } from "@wppconnect-team/wppconnect";
 import { PunishSystem } from "../../../punish_points/punish_points";
 import { ICommand } from "../interface_command";
 import { Command } from "../command_decorator";
-import { WhatsGroups } from "../command_handler";
+import { WhatsGroups } from "../../core/groups";
 
 @Command({ group: WhatsGroups.PULERO ,requires: ["punisher"] })
 export class RemoveAllPunishCommand implements ICommand {

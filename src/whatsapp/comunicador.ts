@@ -65,6 +65,7 @@ export class Communicator {
   private extractGroupIdentifier(message: Message): string {
     const chatId = message.chatId;
     if (typeof chatId === "string") {
+      this.logger.info(`CHATID: ${chatId}`)
       return chatId
     }
     return "default";

@@ -1,13 +1,12 @@
-import { Message, Whatsapp } from "@wppconnect-team/wppconnect";
+import { Whatsapp } from "@wppconnect-team/wppconnect";
 import { Mandala } from "../../../mandala/mandala";
-import { ICommand } from "../interface_command";
-import { Command } from "../command_decorator";
-import { WhatsGroups } from "../command_handler";
+import { ICommand } from "../../command/interface_command";
+import { WhatsGroups } from "../../core/groups";
 
-@Command({ group: WhatsGroups.PULERO, requires: ["mandala"] })
 export class GetMandalaMembersCommand implements ICommand {
-    command = "!mandala_members";
+    command = "mandala_members";
     description = "Lista os membros da mandala.";
+    groups = [WhatsGroups.PULERO];
   
     constructor(private mandala: Mandala) {}
 

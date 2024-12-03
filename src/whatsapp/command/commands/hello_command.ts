@@ -1,7 +1,7 @@
 import { Message, Whatsapp } from "@wppconnect-team/wppconnect";
 import { ICommand } from "../interface_command";
 import { Command } from "../command_decorator";
-import { WhatsGroups } from "../command_handler";
+import { WhatsGroups } from "../../core/groups";
 
 @Command({ group: WhatsGroups.PULERO, requires: [] })
 export class HelloCommand implements ICommand {
