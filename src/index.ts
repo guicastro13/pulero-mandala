@@ -1,5 +1,4 @@
 import dotenv from 'dotenv';
-import { WhatsServer } from './whatsapp/whats_server';
 import { Logger } from './helpers/logger';
 import { CreateOptions } from '@wppconnect-team/wppconnect';
 import { ApiServer } from './api/server';
@@ -24,11 +23,6 @@ const config: CreateOptions  = {
 
 const logger = new Logger()
 // const api_server = new ApiServer(logger, 3000);
-// const whatsapp = new WhatsServer(logger);
 const whatsapp = new WhatsAppServer();
 
 whatsapp.start(config);
-
-
-// api_server.registerControllers([HealthCheck, SampleController]);
-// api_server.start();

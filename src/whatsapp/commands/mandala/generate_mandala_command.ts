@@ -1,7 +1,7 @@
 import { Whatsapp } from "@wppconnect-team/wppconnect";
 import { Mandala } from "../../../mandala/mandala";
-import { ICommand } from "../../command/interface_command";
 import { WhatsGroups } from "../../core/groups";
+import { ICommand } from "../../core/interfaces";
 
 export class GenerateMandalaCommand implements ICommand {
     command = "mandala";

@@ -8,6 +8,7 @@ import { Logger } from "../../helpers/logger";
 import { GenerateMandalaCommand } from "../commands/mandala/generate_mandala_command";
 import { GetMandalaCommand } from "../commands/mandala/get_mandala_command";
 import { RemoverPersonMandalaCommand } from "../commands/mandala/remover_person_mandala_command";
+import { HelloCommand } from "../commands/utilities/hello_command";
 const wppconnect = require('@wppconnect-team/wppconnect');
 
 export class WhatsAppServer {
@@ -28,6 +29,7 @@ export class WhatsAppServer {
     this.commandManager.registerCommand(new GetMandalaCommand(this.mandala));
     this.commandManager.registerCommand(new GetMandalaCommand(this.mandala));
     this.commandManager.registerCommand(new RemoverPersonMandalaCommand(this.mandala));
+    this.commandManager.registerCommand(new HelloCommand())
 
     client.onAnyMessage(async (message: Message) => {
       await this.commandManager.handleCommand(client, message);
