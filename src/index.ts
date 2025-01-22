@@ -13,8 +13,9 @@ dotenv.config();
 const config: CreateOptions  = {
     session: 'session',
     headless: 'shell',
+    debug: true,
     logQR: true,
-    updatesLog: false,
+    updatesLog: true,
     // phoneNumber: process.env.PHONE_NUMBER,
     puppeteerOptions: {
         args: ['--no-sandbox', '--disable-setuid-sandbox']

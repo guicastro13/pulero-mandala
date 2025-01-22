@@ -1,3 +1,3 @@
 export enum WhatsGroups {
-    PULERO = "120363219389577239@g.us"
+    PULERO = "120363389812138259@g.us"
 }
