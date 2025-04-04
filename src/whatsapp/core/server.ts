@@ -24,11 +24,11 @@ export class WhatsAppServer {
 
     this.commandManager.registerCommand(new DiceCommand());
     this.commandManager.registerCommand(new EchoCommand());
-    this.commandManager.registerCommand(new AddPersonMandalaCommand(this.mandala));
-    this.commandManager.registerCommand(new GenerateMandalaCommand(this.mandala));
-    this.commandManager.registerCommand(new GetMandalaCommand(this.mandala));
-    this.commandManager.registerCommand(new GetMandalaCommand(this.mandala));
-    this.commandManager.registerCommand(new RemoverPersonMandalaCommand(this.mandala));
+    // this.commandManager.registerCommand(new AddPersonMandalaCommand(this.mandala));
+    // this.commandManager.registerCommand(new GenerateMandalaCommand(this.mandala));
+    // this.commandManager.registerCommand(new GetMandalaCommand(this.mandala));
+    // this.commandManager.registerCommand(new GetMandalaCommand(this.mandala));
+    // this.commandManager.registerCommand(new RemoverPersonMandalaCommand(this.mandala));
     this.commandManager.registerCommand(new HelloCommand())
 
     client.onAnyMessage(async (message: Message) => {

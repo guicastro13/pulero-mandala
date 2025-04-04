@@ -15,7 +15,7 @@ const config: CreateOptions  = {
     debug: true,
     logQR: true,
     updatesLog: true,
-    // phoneNumber: process.env.PHONE_NUMBER,
+    phoneNumber: process.env.PHONE_NUMBER,
     puppeteerOptions: {
         args: ['--no-sandbox', '--disable-setuid-sandbox']
     },
