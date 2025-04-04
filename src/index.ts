@@ -19,7 +19,6 @@ const config: CreateOptions  = {
 };
 
 const logger = new Logger()
-// const api_server = new ApiServer(logger, 3000);
 const whatsapp = new WhatsAppServer();
 
 whatsapp.start(config);

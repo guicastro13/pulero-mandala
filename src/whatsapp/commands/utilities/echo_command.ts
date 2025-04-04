@@ -16,3 +16,5 @@ export class EchoCommand implements ICommand {
     await client.sendText(chatId, `🔊 ${args}`);
   }
 }
+
+
