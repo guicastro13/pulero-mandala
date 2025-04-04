@@ -2,19 +2,14 @@ import { CreateOptions, Message } from "@wppconnect-team/wppconnect";
 import { CommandManager } from "./command_manager";
 import { DiceCommand } from "../commands/games/dice_command";
 import { EchoCommand } from "../commands/utilities/echo_command";
-import { AddPersonMandalaCommand } from "../commands/mandala/add_person_mandala_command";
-import { Mandala } from "../../mandala/mandala";
+
 import { Logger } from "../../helpers/logger";
-import { GenerateMandalaCommand } from "../commands/mandala/generate_mandala_command";
-import { GetMandalaCommand } from "../commands/mandala/get_mandala_command";
-import { RemoverPersonMandalaCommand } from "../commands/mandala/remover_person_mandala_command";
 import { HelloCommand } from "../commands/utilities/hello_command";
 const wppconnect = require('@wppconnect-team/wppconnect');
 
 export class WhatsAppServer {
   private commandManager = new CommandManager();
   private logger = new Logger();
-  private mandala = new Mandala(this.logger)
   constructor() {
     this.commandManager = new CommandManager("!");
   }
